@@ -12,7 +12,8 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
  - ### **`P( result02 | result01 )`** ???
 <img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
-
+ - ### What if we have multiple latent variables(hidden causes)? 
+<img src="https://user-images.githubusercontent.com/31917400/67586119-c5d09d00-f748-11e9-894d-4e9f5f37de97.jpg" />
 
 
 
