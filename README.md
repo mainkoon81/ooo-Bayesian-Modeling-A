@@ -6,9 +6,11 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
  - one can easily see what uncertain variable influence other uncertain variables.
 <img src="https://user-images.githubusercontent.com/31917400/67561343-8a1be000-f714-11e9-9583-74bcd84a13ad.jpg" />
 
- - What if we have multiple test results?
+ - ### What if we have multiple test results? `result01`, `result02`, ...
 <img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
 
+ - ### **`P( result02 | result01 )`** ???
+<img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
 
 
