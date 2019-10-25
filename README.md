@@ -17,7 +17,7 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
 
 > Generalized Bayes-nets
  - It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
-<img src="https://user-images.githubusercontent.com/31917400/67589469-670f2180-f750-11e9-82cd-1b2ee8bb9ce1.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />
 
 
 
