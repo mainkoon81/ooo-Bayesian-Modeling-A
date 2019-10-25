@@ -15,7 +15,9 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
  - ### What if we have multiple latent variables(hidden causes)? 
 <img src="https://user-images.githubusercontent.com/31917400/67586119-c5d09d00-f748-11e9-894d-4e9f5f37de97.jpg" />
 
-
+> Generalized Bayes-nets
+ - It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
+<img src="https://user-images.githubusercontent.com/31917400/67589102-9d986c80-f74f-11e9-9e21-a1b0ea858f13.jpg" />
 
 
 
