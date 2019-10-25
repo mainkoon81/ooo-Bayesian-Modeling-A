@@ -7,7 +7,7 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
 <img src="https://user-images.githubusercontent.com/31917400/67561343-8a1be000-f714-11e9-9583-74bcd84a13ad.jpg" />
 
  - What if we have multiple test results?
-<img src="https://user-images.githubusercontent.com/31917400/67563977-c736a100-f719-11e9-8218-5563a655c422.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
 
 
 
