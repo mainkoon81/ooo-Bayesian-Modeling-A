@@ -1,6 +1,38 @@
 # ooo-Minkun-Model-Collection-VI-Bayesian-C
 Probabilistic Graphical Model (Bayesian Network)
 
+Bayes-nets explicitly `encodes the dependencies` between variables to **model joint distributions**. They are particularly useful because they provide a compact representation for **practically arbitrary distributions**, and efficient algorithms exist to sample and perform inference over the joint distribution.
+ - It takes the idea of **uncertainty** and marry it with efficient structures.
+ - one can easily see what uncertain variable influence other uncertain variables.
+<img src="https://user-images.githubusercontent.com/31917400/67561343-8a1be000-f714-11e9-9583-74bcd84a13ad.jpg" />
+
+ - What if we have multiple test results?
+<img src="https://user-images.githubusercontent.com/31917400/67563977-c736a100-f719-11e9-8218-5563a655c422.jpg" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Probabilistic Graphical Model
 <img src="https://user-images.githubusercontent.com/31917400/52655869-1a025c80-2eed-11e9-82ba-1fdea931596f.jpg" />
 
