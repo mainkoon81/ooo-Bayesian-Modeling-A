@@ -167,8 +167,10 @@ It uses a `undirected graph` as the intrinsic representation.
 
 ---------------------------------------------------------------------------------------------------------
 # B. Inference
-How to answer questions given certain inputs?
+<img src="https://user-images.githubusercontent.com/31917400/67621300-adbf5300-f806-11e9-85ba-5929512448e4.jpg" />
 
+ - Q1. How to answer questions such as "Given some inputs, what are the outputs?" The answer is going to be a complete `joint` distribution over the **query variables**...we call it `posterior`. This is what we are after. 
+ - Q2. Out of all the possible values for all the query variables, which combination of values has the highest probability? Whic Q values are maxable given the evidence values?   
 
 
 
