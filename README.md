@@ -196,7 +196,6 @@ Go through all possibilities, add them up and come up with an answer.
  - Do the same thing with the denominator. 
  - We finish to enumerate over all four hidden variable possibilities in the end, then it's saying `P(burglary alarm being true | John, Mary)` is 0.284.   
 
-We can speed up the enumeration. 
 
 
 
