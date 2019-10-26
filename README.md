@@ -167,10 +167,12 @@ It uses a `undirected graph` as the intrinsic representation.
 
 ---------------------------------------------------------------------------------------------------------
 # B. Inference
-<img src="https://user-images.githubusercontent.com/31917400/67621300-adbf5300-f806-11e9-85ba-5929512448e4.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/67621845-b1090d80-f80b-11e9-8081-dcd66dd9a27e.jpg" />
 
  - Q1. How to answer questions such as "Given some inputs, what are the outputs?" The answer is going to be a complete `joint` distribution over the **query variables**...we call it `posterior`. This is what we are after. 
- - Q2. Out of all the possible values for all the query variables, which combination of values has the highest probability? Whic Q values are maxable given the evidence values?   
+ - Q2. Out of all the possible values for all the query variables, which combination of values has the highest probability? Whic `Q` values are maxable given the evidence values? 
+ - One great thing about Bayes-net is that we are not restricted to going only in one direction; we can reverse the casual flow. The `Q` can become evidence values and the `E` can become the query values. Like wise, one `Q` and `E` can become evidence values and the other `Q` and `E` can become query values.  
+ 
 
 
 
