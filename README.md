@@ -190,10 +190,11 @@ Go through all possibilities, add them up and come up with an answer.
    - To obtain the values of these atomic events, rewrite the eqation in a form that corresponds to the conditional prob-table of this Bayes-net. Rewrite w.r.t **parents** of each of the nodes in the network.  
    <img src="https://user-images.githubusercontent.com/31917400/67623317-8fb01d80-f81b-11e9-9653-07cc7f9cafdd.jpg" />
    
-   - The equation can be understood as a function of hidden variables and the answer can be the **sum of all these function outputs** for all values of the hidden variables. So it's a sum of such terms and each of which is a product of .....5 numbers?? 
-   <img src="https://user-images.githubusercontent.com/31917400/67623404-b1f66b00-f81c-11e9-8403-4692842a0eee.jpg" />
+   - The equation can be understood as a function of hidden variables and the answer can be the **sum of all these function outputs** for all values of the hidden variables. So it's a sum of such terms and each of which is a product of "factors" in the previous equation.  
+   <img src="https://user-images.githubusercontent.com/31917400/67623731-a2792100-f820-11e9-980c-9a51acadba4a.jpg" />
 
-
+ - We finish to enumerate over all four hidden variable possibilities in the end, then it's saying `P(burglary alarm being true | John, Mary)` is 0.284.  
+ 
 
 
 
