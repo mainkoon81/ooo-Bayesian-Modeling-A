@@ -200,9 +200,8 @@ Go through all possibilities, add them up and come up with an answer.
  - Joining factors:
  <img src="https://user-images.githubusercontent.com/31917400/67634221-f59ab480-f8b0-11e9-8dc4-1e9a03ddbc90.jpg" />
 
- - Marginalizing factors:
- <img src="https://user-images.githubusercontent.com/31917400/67634415-925e5180-f8b3-11e9-92dd-bc4831d486c0.jpg" />
-
+ - Marginalizing the joint then make the whole structure a "single node" which gives an answer:
+ <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
 
 
