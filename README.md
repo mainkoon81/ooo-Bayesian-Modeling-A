@@ -203,6 +203,8 @@ Go through all possibilities, add them up and come up with an answer.
  - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
  <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
+### Inference_02: Approximation Method by means of "Sampling"
+
 
 
 
