@@ -201,7 +201,7 @@ Go through all possibilities, add them up and come up with an answer.
  <img src="https://user-images.githubusercontent.com/31917400/67634221-f59ab480-f8b0-11e9-8dc4-1e9a03ddbc90.jpg" />
 
  - Marginalizing factors:
- <img src="https://user-images.githubusercontent.com/31917400/67634347-81611080-f8b2-11e9-904e-91a09784faa6.jpg" />
+ <img src="https://user-images.githubusercontent.com/31917400/67634415-925e5180-f8b3-11e9-92dd-bc4831d486c0.jpg" />
 
 
 
