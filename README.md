@@ -204,10 +204,18 @@ Go through all possibilities, add them up and come up with an answer.
  <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
 ### Inference_02: Approximation Method by means of "Sampling"
+To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments?
 
+(+) Sampling has an advantage over inference 
+ - In that we know a procedure for coming up with at least an approximate value for the `Joint`.  
+ - In that although we don't have the **conditional probability tables**, we still can simulate the process.    
 
-
-
+We can do sampling:
+ - Rejection Sampling
+ 
+ - Gibbs Sampling
+ 
+ 
 
 
 
