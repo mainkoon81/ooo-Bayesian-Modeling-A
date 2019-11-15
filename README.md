@@ -34,6 +34,7 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
 <img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
 
  - ### between result ? **`P( result02 | result01 )`**
+ If we Know 'C', its children are independent. so? 
 <img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
  - ### What if we have multiple latent variables(hidden causes)? 
