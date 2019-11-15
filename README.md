@@ -212,6 +212,8 @@ To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments
  - In that although we don't have the **conditional probability tables**, we still can simulate the process.    
 
 ### We can do sampling: 
+<img src="https://user-images.githubusercontent.com/31917400/68958025-2e98bb80-07c3-11ea-9ebb-9503bedfb3c7.jpg" />
+
 Let's say we have a bunch of inputs `X` that follows a **certain distribution**. We want to get **"Expected value of the outputs"** `E[f(X)]`, but how? using computer, we plug in all inputs then average out the outputs `f(X)`. If we know the input distribution, then we sample each input from the known distribution, then plug them in. But what if we have no knowledge on input distribution `X`? 
  - What we can do is to think of some ulternative distribution! then draw samples from it. Interestingly, we can later on correct the samples from the alternative(wrong) distribution! And sometimes even we can do better than using the real distribution of `X` at the end of the day! HOW? 
  - 1)Importance Sampling... is not a sampling but a variant of MonteCarlo approximation method.
