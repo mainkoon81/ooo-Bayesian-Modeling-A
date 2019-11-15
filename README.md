@@ -181,7 +181,7 @@ Go through all possibilities, add them up and come up with an answer.
  - State the problem and ask the question: "If **Mary** and **John** has called to report that the alarm is going off, we want to know if there has been a **burglary**." 
  <img src="https://user-images.githubusercontent.com/31917400/67623036-735eb180-f818-11e9-9ad2-cbbcc6141961.jpg" />
 
- - First, take a conditional prob(posterior) and rewrite it as unconditional prob(sum of joint:marginal).
+ - First, take a conditional prob(posterior) and rewrite it as unconditional prob(a bunch of jointsss).
  <img src="https://user-images.githubusercontent.com/31917400/67623078-0992d780-f819-11e9-88b7-c4b0bae56255.jpg" />
 
  - Next, enumerate all the atomic probabilities and calculate the sum of products.
