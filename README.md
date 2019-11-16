@@ -238,6 +238,7 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
        <img src="https://user-images.githubusercontent.com/31917400/68996074-0d040680-088d-11ea-8587-ffbf437c73f9.jpg" />
 
  - ### 2) Smirnov Inverse Transform sampling 
+   - 
 
  - ### 3) Rejection Sampling
  
