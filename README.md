@@ -228,11 +228,14 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
        - Let's say
        <img src="https://user-images.githubusercontent.com/31917400/68995569-315ce480-0887-11ea-99cf-472009504fca.jpg" />
        
-       - If we put them in...but let's say we don't know the normalization constant `z_p`, `z_q`. 
+       - If we put them in..looks nice, but let's say we don't know the normalization constant `z_p`, `z_q`. 
        <img src="https://user-images.githubusercontent.com/31917400/68995679-438b5280-0888-11ea-9345-a6bdac11e7d1.jpg" />
        
-       - So we don't know `z_p` and `z_q`, but we can compute the proportion because it's the MonteCarlo approximation of the "importance weight"!
+       - So we don't know `z_p` and `z_q`, but luckily we can compute the proportion because we can approximate the **Normalization constant proportion** with the MonteCarlo approximation, using the "importance weight"!
        <img src="https://user-images.githubusercontent.com/31917400/68995820-eabcb980-0889-11ea-89e8-224c317db213.jpg" />
+       
+       - thus this is the MonteCarlo Estimation within the MonteCarlo Estimation.
+       <img src="https://user-images.githubusercontent.com/31917400/68996074-0d040680-088d-11ea-8587-ffbf437c73f9.jpg" />
 
  - ### 2) Smirnov Inverse Transform sampling 
 
