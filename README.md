@@ -211,27 +211,32 @@ To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments
  - In that we know a procedure for coming up with at least an approximate value for the `Joint`.  
  - In that although we don't have the **conditional probability tables**, we still can simulate the process.    
 
-### We can do sampling: 
+### `We can do sampling`: 
 <img src="https://user-images.githubusercontent.com/31917400/68958025-2e98bb80-07c3-11ea-9ebb-9503bedfb3c7.jpg" />
 
-Let's say we have a bunch of inputs `X` that follows a **certain distribution**. We want to get **"Expected value of the outputs"** `E[f(X)]`, but how? using computer, we plug in all inputs then average out the outputs `f(X)`. If we know the input distribution, then we sample each input from the known distribution, then plug them in. But what if we have no knowledge on input distribution `X`? 
+Let's say we have a bunch of inputs `X` that follows a **certain distribution**. We want to get **"Expected value of the outputs"** `E[f(X)]`, but how? using computer, we plug in all inputs then average out the outputs `f(X)`. If we know the input distribution, then we sample each input from the known distribution, then plug them in. But what if we have no knowledge on input distribution of `X`? 
  - What we can do is to think of some ulternative distribution! then draw samples from it. Interestingly, we can later on correct the samples from the alternative(wrong) distribution! And sometimes even we can do better than using the real distribution of `X` at the end of the day! HOW? 
- - 1)Importance Sampling... is not a sampling but a variant of MonteCarlo approximation method.
+ - ### 1) Importance Sampling... is not a sampling but a variant of MonteCarlo approximation method.
    - Let's say we have `E[f(x)] = ∫ f(x)*P(x) dx` where the pdf **P(x)** is the probability of **f(x) outcome**. 
-   - we do some weird thing with `q(x)`
+   - we do some weird thing with `q(x)` that we call "proposal distribution". And it's ur baby. 
    <img src="https://user-images.githubusercontent.com/31917400/68993028-06fd2e00-086b-11ea-805d-775da9338e2a.jpg" />
    
      - Treat `f(x)*P(x) / q(x)` as a new objective function that we want to approximate. And **q(x)** is the **pdf** of our new objective function (so from now on, **`our samples come from q(x)`** and not from `P(x)`). And we can perform the MonteCarlo approximation on our new objective function! The result would be exactly what we seek for in the beginning. 
      <img src="https://user-images.githubusercontent.com/31917400/68994467-39af2280-087b-11ea-8551-0d75cc4e57c1.jpg" />
      
-     - 
-     
-     
- - 2)Smirnov Inverse Transform sampling 
+     - We know `f(x)` of course. But do we know `P(x)` where the sample `X` come from?? No! we cannot compute `P(x)`. We don't know the original samples to plug into `f(x)` for MonteCarlo Computation...perhaps..we do not know the exact `P(x)`, but sometimes we know sth similar to `P(x)`..but without the normalizing constant. 
+       - Let's say
+       <img src="https://user-images.githubusercontent.com/31917400/68995569-315ce480-0887-11ea-99cf-472009504fca.jpg" />
+       
+       - If we put them in...but let's say we don't know the normalization constant `z_p`, `z_q`. 
+       <img src="https://user-images.githubusercontent.com/31917400/68995679-438b5280-0888-11ea-9345-a6bdac11e7d1.jpg" />
+       <img src="https://user-images.githubusercontent.com/31917400/68995820-eabcb980-0889-11ea-89e8-224c317db213.jpg" />
 
- - 3)Rejection Sampling
+ - ### 2) Smirnov Inverse Transform sampling 
+
+ - ### 3) Rejection Sampling
  
- - 4)MCMC Gibbs Sampling
+ - ### 4) MCMC Gibbs Sampling
  
  
 
