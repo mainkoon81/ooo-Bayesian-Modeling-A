@@ -218,9 +218,15 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
  - What we can do is to think of some ulternative distribution! then draw samples from it. Interestingly, we can later on correct the samples from the alternative(wrong) distribution! And sometimes even we can do better than using the real distribution of `X` at the end of the day! HOW? 
  - 1)Importance Sampling... is not a sampling but a variant of MonteCarlo approximation method.
    - Let's say we have `E[f(x)] = ∫ f(x)*P(x) dx` where the pdf **P(x)** is the probability of **f(x) outcome**. 
-   - we do some weird thing here: 
+   - we do some weird thing here: `q(x)`
    <img src="https://user-images.githubusercontent.com/31917400/68993028-06fd2e00-086b-11ea-805d-775da9338e2a.jpg" />
-
+   
+     - Treat `f(x)*P(x) / q(x)` as a new objective function that we want to approximate. And **q(x)** is the **pdf** of our new objective function (so our samples, from now on, come from **q(x)** and not from **P(x)**). And we can perform the MonteCarlo approximation on our new objective function! The result would be exactly what we seek for in the beginning. 
+     <img src="https://user-images.githubusercontent.com/31917400/68994252-cc9a8d80-0878-11ea-9d99-e9b09913bcfb.jpg" />
+     
+     
+     
+     
  - 2)Smirnov Inverse Transform sampling 
 
  - 3)Rejection Sampling
