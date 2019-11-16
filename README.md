@@ -230,6 +230,8 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
        
        - If we put them in...but let's say we don't know the normalization constant `z_p`, `z_q`. 
        <img src="https://user-images.githubusercontent.com/31917400/68995679-438b5280-0888-11ea-9345-a6bdac11e7d1.jpg" />
+       
+       - So we don't know `z_p` and `z_q`, but we can compute the proportion because it's the MonteCarlo approximation of the "importance weight"!
        <img src="https://user-images.githubusercontent.com/31917400/68995820-eabcb980-0889-11ea-89e8-224c317db213.jpg" />
 
  - ### 2) Smirnov Inverse Transform sampling 
