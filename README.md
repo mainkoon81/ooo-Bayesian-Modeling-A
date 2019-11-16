@@ -217,7 +217,10 @@ To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments
 Let's say we have a bunch of inputs `X` that follows a **certain distribution**. We want to get **"Expected value of the outputs"** `E[f(X)]`, but how? using computer, we plug in all inputs then average out the outputs `f(X)`. If we know the input distribution, then we sample each input from the known distribution, then plug them in. But what if we have no knowledge on input distribution `X`? 
  - What we can do is to think of some ulternative distribution! then draw samples from it. Interestingly, we can later on correct the samples from the alternative(wrong) distribution! And sometimes even we can do better than using the real distribution of `X` at the end of the day! HOW? 
  - 1)Importance Sampling... is not a sampling but a variant of MonteCarlo approximation method.
-   - 
+   - Let's say we have `E[f(x)] = ∫ f(x)*P(x) dx` where the pdf **P(x)** is the probability of **f(x) outcome**. 
+   - we do some weird thing here: 
+   <img src="https://user-images.githubusercontent.com/31917400/68993028-06fd2e00-086b-11ea-805d-775da9338e2a.jpg" />
+
  - 2)Smirnov Inverse Transform sampling 
 
  - 3)Rejection Sampling
