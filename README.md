@@ -247,7 +247,15 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
    <img src="https://user-images.githubusercontent.com/31917400/69006832-eeede300-092c-11ea-8fb1-a12e13d7c021.jpg" />
 
  - ### 3) Rejection Sampling
- 
+   The "set A"(discrete/continuous) is very complicated. We know a certain rectangle boundary that houses our "set A"
+   - Draw samples using **Uniform distribution** on a "set A":
+     - First, draw a bunch of samples from a larger set of a `certain known rectangle boundary`, then 
+     <img src="https://user-images.githubusercontent.com/31917400/69007867-86f2c900-093b-11ea-9ad7-bea3631487c9.jpg" />
+  
+   - Draw samples using **Non-Uniform distribution** :
+   
+   
+   
  - ### 4) MCMC Gibbs Sampling
  
  
