@@ -240,24 +240,25 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
 
  - ### 2) Smirnov's Inverse Transform sampling 
    We have a `random variable`, and want to **generate samples** from the `random variable` or `pdf`, first, you need CDF!
-   - When CDF of your data distribution is invertible: `inverse CDF(unif(0,1))` is your sample!
+   - a) When CDF of your data distribution is invertible: `inverse CDF(unif(0,1))` is your sample!
    <img src="https://user-images.githubusercontent.com/31917400/68999966-4ace5280-08c0-11ea-9600-9497a37949d4.jpg" />
    
-   - When CDF of your data distribution is not invertible: playing with "intervals"..
+   - b) When CDF of your data distribution is not invertible: playing with "intervals"..
    <img src="https://user-images.githubusercontent.com/31917400/69006832-eeede300-092c-11ea-8fb1-a12e13d7c021.jpg" />
 
  - ### 3) Rejection Sampling
    It also applies for a higher dimension. 
-   - Draw samples using **Uniform distribution** on a "set A": `It's a discrete`!
+   - a) Draw samples using **Uniform distribution** on a "set A": `It's a discrete`!
      - The "set A" is very complicated. But we know a certain rectangle boundary that houses our "set A"
      - First, draw a bunch of samples from a larger set of a `certain known rectangle boundary`, then 
      <img src="https://user-images.githubusercontent.com/31917400/69007867-86f2c900-093b-11ea-9ad7-bea3631487c9.jpg" />
   
-   - Draw samples using **Non-Uniform distribution** on a "pdf A": `It's a continuous`!
+   - b) Draw samples using **Non-Uniform distribution** on a "pdf A": `It's a continuous`!
      - The "pdf A" is very complicated. If we don't know "pdf A", we can first think of the unnormalized verson(proportional to pdf A) like "pdf A_tilda". And we choose additionally the proposal distribution "q" for actual sampling(gives a boundary of uniform sampling). "pdf A_tilda" will work as a constraint to reject/accept the samples.       
      <img src="https://user-images.githubusercontent.com/31917400/69014553-53d42800-0983-11ea-8912-34609a85d966.jpg" />
   
- - ### 4) MCMC Gibbs Sampling
+ - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
+   When `ϕ ~ unknown P(ϕ)`, we hypothetically sample from a proposal distribution `q(ϕ)`(via importance/rejection) then approximate `E[P(ϕ)]`: Expected distribution.  
  
  
 
