@@ -238,8 +238,13 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
        - thus this is the MonteCarlo Estimation within the MonteCarlo Estimation.
        <img src="https://user-images.githubusercontent.com/31917400/68996074-0d040680-088d-11ea-8587-ffbf437c73f9.jpg" />
 
- - ### 2) Smirnov Inverse Transform sampling 
-   - 
+ - ### 2) Smirnov's Inverse Transform sampling 
+   We have a `random variable`, and want to **generate samples** from the `random variable` or `pdf`, first, you need CDF!
+   - When CDF of your data distribution is invertible: `inverse CDF(unif(0,1))` is your sample!
+   <img src="https://user-images.githubusercontent.com/31917400/68999966-4ace5280-08c0-11ea-9600-9497a37949d4.jpg" />
+   
+   - When CDF of your data distribution is not invertible: playing with "intervals"..
+   <img src="https://user-images.githubusercontent.com/31917400/69006832-eeede300-092c-11ea-8fb1-a12e13d7c021.jpg" />
 
  - ### 3) Rejection Sampling
  
