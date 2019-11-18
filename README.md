@@ -258,8 +258,11 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
      <img src="https://user-images.githubusercontent.com/31917400/69014553-53d42800-0983-11ea-8912-34609a85d966.jpg" />
   
  - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
+   Is this able to explain a Neural Network? 
    <img src="https://user-images.githubusercontent.com/31917400/69052290-95ee7f80-09fe-11ea-9964-0cf2d75373c7.jpg" /> When `ϕ ~ unknown P(ϕ)`, we hypothetically sample from a proposal distribution `q(ϕ)`(via importance/rejection) then approximate `E[P(ϕ)]`: Expected distribution.  
- 
+   - 
+
+
  
 
 
