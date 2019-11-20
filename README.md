@@ -264,7 +264,7 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
    <img src="https://user-images.githubusercontent.com/31917400/69055084-e23cbe00-0a04-11ea-96f6-b56046fa7153.jpg" /> 
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
 
-When `x ~ unknown P(x)`, we hypothetically sample from a proposal distribution `q(x)`(via importance/rejection) then approximate `E[P(x)]`: Expected distribution. In other words, instead of trying to deal with intractable computations involving the posterior, we can get samples from some easy distribution then feed these samples to our known joint function`g(x)`. Next, we use the proportion of the joint function outputs (`g(x1)`/`g(x2)`), or the random walk's transition probability distribution, we build the posterior.    
+When `x ~ unknown P(x)`, we hypothetically sample from a proposal distribution `q(x)`(via importance/rejection) then approximate `E[P(x)]`: Expected distribution. In other words, instead of trying to deal with intractable computations involving the posterior, we can get samples from some easy distribution then feed these samples to our known joint function`g(x)`. Next, we use the proportion of the joint function outputs (`g(x1)`/`g(x0)`), or the random walk's transition probability distribution, we decide the final samples of `P(x)`.    
 
 
 
