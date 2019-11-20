@@ -259,7 +259,7 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
   
  - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
    Sampling can help a Neural Network model? 
-   <img src="https://user-images.githubusercontent.com/31917400/69052290-95ee7f80-09fe-11ea-9964-0cf2d75373c7.jpg" /> 
+   <img src="https://user-images.githubusercontent.com/31917400/69259957-fb856c00-0bb6-11ea-93b9-2a748dcee985.jpg" /> 
    MarKov Chain 
    <img src="https://user-images.githubusercontent.com/31917400/69055084-e23cbe00-0a04-11ea-96f6-b56046fa7153.jpg" /> 
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
@@ -271,6 +271,8 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 <img src="https://user-images.githubusercontent.com/31917400/69253066-e9ea9700-0bab-11ea-99ff-e4b73ed0cc48.jpg" /> 
 <img src="https://user-images.githubusercontent.com/31917400/69254772-ac3b3d80-0bae-11ea-8bd3-e9e40b7f8625.jpg" /> 
 
+----------------------------------------------------------------------------------------
+## Bayesian Neural Network
 
 
  
