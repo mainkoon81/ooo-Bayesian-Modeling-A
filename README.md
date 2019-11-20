@@ -210,7 +210,7 @@ To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments
 (+) Sampling has an advantage over inference 
  - In that we know a procedure for coming up with at least an approximate value for the `Joint`.  
  - In that although we don't have the **conditional probability tables**, we still can simulate the process.    
-
+## "Sampling" means we can get a posterior at the end!
 ### `We can do sampling`: 
 Draw samples then average them out. You have a machine dude!
 <img src="https://user-images.githubusercontent.com/31917400/68958025-2e98bb80-07c3-11ea-9ebb-9503bedfb3c7.jpg" />
@@ -265,7 +265,14 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
 
 When `x ~ unknown P(x)`, we hypothetically sample from a proposal distribution `q(x)`(MonteCarlo) then approximate stationary distribution`E[P(x)]`(MarkovChain). In other words, instead of trying to deal with intractable computations involving the posterior, we can get samples from some easy distribution then feed these samples to our known joint function`g(x)`. Next, we use the proportion of the joint function outputs (`g(x1)`/`g(x0)` as Metropolis-Hastings ratio: α), or the random walk's transition probability distribution, we decide the final samples for the nasty `P(x)`.    
+> Metropolis > Metropolis Hasting > Gibbs
 
+When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the value of arbitrary ϕ, pretending we know the value of θ by substituting in its current value or current iteration from the Markov chain. Once we've drawn for both θ and ϕ, that completes one iteration and we begin the next iteration by drawing a new θ. This idea of **one at a time updates** is used in what we call Gibbs sampling.
+<img src="https://user-images.githubusercontent.com/31917400/69250068-e4d71900-0ba6-11ea-88e8-8070cc767690.jpg" /> 
+
+
+
+ 
 
 
 
