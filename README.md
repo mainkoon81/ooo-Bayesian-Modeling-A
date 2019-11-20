@@ -273,7 +273,14 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ----------------------------------------------------------------------------------------
 ## Bayesian Neural Network
+WHY BNN?
+ - kk
 
+> some potential downsides in using Gibbs sampling for approximate inference in Bayesian Neural Networks
+ - The Gibbs sampler generates one coordinate of the weight vector `w` at a time, which may be very slow for neural networks with tens of millions of weights.
+ - The Gibbs sampler may not work with minibatching, i.e. we will have to look through the whole dataset to perform each step of the sampler. Thus, training on large datasets will be very slow.
+ - [note] We will have to wait until the Gibbs sampler converges and starts to produce samples from the correct distribution, but this only needs to be done on the training stage. On the test stage, we will use the weight samples collected during the training stage to predict the label for a new test object, so predicting the labels for new test samples will not be necessarily slow.
+ 
 
  
 
