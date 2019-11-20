@@ -269,6 +269,7 @@ When `x ~ unknown P(x)`, we hypothetically sample from a proposal distribution `
 
 When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the value of arbitrary ϕ, pretending we know the value of θ by substituting in its current value or current iteration from the Markov chain. Once we've drawn for both θ and ϕ, that completes one iteration and we begin the next iteration by drawing a new θ. This idea of **one at a time updates** is used in what we call Gibbs sampling.
 <img src="https://user-images.githubusercontent.com/31917400/69253066-e9ea9700-0bab-11ea-99ff-e4b73ed0cc48.jpg" /> 
+<img src="https://user-images.githubusercontent.com/31917400/69254772-ac3b3d80-0bae-11ea-8bd3-e9e40b7f8625.jpg" /> 
 
 
 
