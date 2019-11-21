@@ -259,7 +259,8 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
   
  - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
    Sampling can help a Neural Network model? 
-<img src="https://user-images.githubusercontent.com/31917400/69334730-4eacfc80-0c53-11ea-8362-2ff3bd2cdd9e.jpg" /> 
+<img src="https://user-images.githubusercontent.com/31917400/69341186-fb41ab00-0c60-11ea-8b34-17e8a851b5a6.jpg" /> 
+   
    MarKov Chain 
    <img src="https://user-images.githubusercontent.com/31917400/69055084-e23cbe00-0a04-11ea-96f6-b56046fa7153.jpg" /> 
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
@@ -273,14 +274,24 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ----------------------------------------------------------------------------------------
 ## Bayesian Neural Network
-WHY BNN?
+<img src="https://user-images.githubusercontent.com/31917400/69341233-14e2f280-0c61-11ea-80ef-26159e0fd58b.jpg" /> 
+
+NN performs a given task by learning on examples without having prior knowledge about the task. This is done by finding an optimal point estimate for the weights in every node. Generally, the NN **using point estimates as weights** perform well with large datasets, but they fail to express uncertainty in regions with little or no data, leading to overconfident decisions. 
+
+BNNs are comprised of a Probabilistic Model and a Neural Network. The intent of such a design is to combine the strengths of Neural Networks and Stochastic modeling. NN exhibits **universal continuous function approximator** capabilities. Bayesian Stochastic models generate a complete posterior(constructing the distribution of the parameters) and produce **probabilistic guarantees on the predictions**.  
+ - In BNNs usually, a `prior` is used to describe the key parameters, which are then utilized as input to a neural network. The neural networks’ output is utilized to compute the `likelihood`. From this, one computes the `posterior` of the parameters by **Sampling** or **Variational Inference**. 
+ - But BNNs are computationally expensive, because of the sampling or variational inference steps. BNNs have been demonstrated to be competent on moderately sized datasets and not yet fully explored with vastly large datasets. 
+
+> WHY BNN?
  - Complexity is in the context of deep learning best understood as complex systems. Systems are ensembles of agents which interact in one way or another. These agents form together a whole. One of the fundamental characteristics of complex systems is that these agents potentially interact non-linearly. There are two disparate levels of complexity: 
    - simple or restricted complexity
    - complex or general complexity
  - While general complexity can, by definition, not be mathematically modelled in any way, restricted complexity can. Given that mathematical descriptions of anything more or less complex are merely models and not fundamental truths, we can directly deduce that Bayesian inference is more appropriate to use than frequentist inference. Systems can change over time, regardless of anything that happened in the past, and can develop new phenomena which have not been present to-date. This point of argumentation is again very much aligned with the definition of complexity from a social sciences angle. In Bayesian inference, we do learn the model parameters θ in form of probability distributions. Doing so, we keep them flexible and can update their shape whenever new observations of a system arrive.
  - So far, there has no deterministic mathematical formalism been developed for non-linear systems and will also never be developed, because complex systems are, by definition, non-deterministic. In other words, if we repeat an experiment in a complex system, the outcome of the second experiment won’t be the same as of the first. If so.. what is the obvious path to go whenever we cannot have a deterministic solution for anything? we approximate!!! This is precisely what we do in Bayesian methods: the intractable posterior `P(θ|D)` is approximated, either by a **variational distribution `g(θ|D)`** in neural networks, or with **Monte Carlo methods `q(θ|D)`**(envelop) in probabilistic graphical models.
  - Any deep learning model is actually a complex system by itself. We have `neurons`(agents), and `non-linear activation functions` between them(agents’ non-linear relations).
-## Neural networks are one of the few methods which can find `non-linear relations` between random variables. 
+## Neural Networks are one of the few methods which can find `non-linear relations` between random variables. 
+
+
 
 
 
@@ -289,7 +300,9 @@ WHY BNN?
  - The Gibbs sampler generates one coordinate of the weight vector `w` at a time, which may be very slow for neural networks with tens of millions of weights.
  - The Gibbs sampler may not work with minibatching, i.e. we will have to look through the whole dataset to perform each step of the sampler. Thus, training on large datasets will be very slow.
  - [note] We will have to wait until the Gibbs sampler converges and starts to produce samples from the correct distribution, but this only needs to be done on the training stage. On the test stage, we will use the weight samples collected during the training stage to predict the label for a new test object, so predicting the labels for new test samples will not be necessarily slow.
- 
+
+## Dynamic Bayesian Neural Network
+
 
  
 
