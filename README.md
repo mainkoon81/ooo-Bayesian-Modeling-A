@@ -296,7 +296,7 @@ Problem: Big data?
 <img src="https://user-images.githubusercontent.com/31917400/69342568-bb2ff780-0c63-11ea-9287-69eccb0dbc83.jpg" /> 
 
 ### Langevin MonteCarlo
-
+<img src="https://user-images.githubusercontent.com/31917400/69347963-49f54200-0c6d-11ea-97eb-62eb7defcbd2.jpg" /> 
 
 
 
