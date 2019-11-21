@@ -274,7 +274,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ----------------------------------------------------------------------------------------
 ## Bayesian Neural Network
-<img src="https://user-images.githubusercontent.com/31917400/69341233-14e2f280-0c61-11ea-80ef-26159e0fd58b.jpg" /> 
+<img src="https://user-images.githubusercontent.com/31917400/69341233-14e2f280-0c61-11ea-80ef-26159e0fd58b.jpg" /> 10 years ago, people used to think that Bayesian methods are mostly suited for small datasets because it's computationally expensive. In the era of Big data, our Bayesian methods met deep learning, and people started to make some mixture models that has neural networks inside of a probabilistic model.
 
 NN performs a given task by learning on examples without having prior knowledge about the task. This is done by finding an optimal point estimate for the weights in every node. Generally, the NN **using point estimates as weights** perform well with large datasets, but they fail to express uncertainty in regions with little or no data, leading to overconfident decisions. 
 
