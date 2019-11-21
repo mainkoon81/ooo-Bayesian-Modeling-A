@@ -259,7 +259,7 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
   
  - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
    Sampling can help a Neural Network model? 
-   <img src="https://user-images.githubusercontent.com/31917400/69259957-fb856c00-0bb6-11ea-93b9-2a748dcee985.jpg" /> 
+   <img src="https://user-images.githubusercontent.com/31917400/69334363-718ae100-0c52-11ea-9290-eeda80a80fb8.jpg" /> 
    MarKov Chain 
    <img src="https://user-images.githubusercontent.com/31917400/69055084-e23cbe00-0a04-11ea-96f6-b56046fa7153.jpg" /> 
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
@@ -277,14 +277,13 @@ WHY BNN?
  - Complexity is in the context of deep learning best understood as complex systems. Systems are ensembles of agents which interact in one way or another. These agents form together a whole. One of the fundamental characteristics of complex systems is that these agents potentially interact non-linearly. There are two disparate levels of complexity: 
    - simple or restricted complexity
    - complex or general complexity
- - While general complexity can, by definition, not be mathematically modelled in any way, restricted complexity can. 
- - Given that mathematical descriptions of anything more or less complex are merely models and not fundamental truths, we can directly deduce that Bayesian inference is more appropriate to use than frequentist inference. 
- - Systems can change over time, regardless of anything that happened in the past, and can develop new phenomena which have not been present to-date. This point of argumentation is again very much aligned with the definition of complexity from a social sciences angle.
- - In Bayesian inference, we do learn the model parameters θ in form of probability distributions. Doing so, we keep them flexible and can update their shape whenever new observations of a system arrive.
- - So far, there has no deterministic mathematical formalism been developed for non-linear systems and will also never be developed, because complex systems are, by definition, non-deterministic. In other words, if we repeat an experiment in a complex system, the outcome of the second experiment won’t be the same as of the first. If so.. what is the obvious path to go whenever we cannot have a deterministic solution for anything? we approximate!!!
- - This is precisely what we do in Bayesian methods: the intractable posterior `P(θ|D)` is approximated, either by a variational distribution `q(θ|D)` in neural networks, or with Monte Carlo methods in probabilistic graphical models.
- - Any deep learning model is actually a complex system by itself. We have neurons(agents), and non-linear activation functions between them(agents’ non-linear relations).
- - Neural networks are one of the few methods which can find non-linear relations between random variables. Additionally, Bayesian inference is generally approximates the truth instead of aiming to find it exactly.
+ - While general complexity can, by definition, not be mathematically modelled in any way, restricted complexity can. Given that mathematical descriptions of anything more or less complex are merely models and not fundamental truths, we can directly deduce that Bayesian inference is more appropriate to use than frequentist inference. Systems can change over time, regardless of anything that happened in the past, and can develop new phenomena which have not been present to-date. This point of argumentation is again very much aligned with the definition of complexity from a social sciences angle. In Bayesian inference, we do learn the model parameters θ in form of probability distributions. Doing so, we keep them flexible and can update their shape whenever new observations of a system arrive.
+ - So far, there has no deterministic mathematical formalism been developed for non-linear systems and will also never be developed, because complex systems are, by definition, non-deterministic. In other words, if we repeat an experiment in a complex system, the outcome of the second experiment won’t be the same as of the first. If so.. what is the obvious path to go whenever we cannot have a deterministic solution for anything? we approximate!!! This is precisely what we do in Bayesian methods: the intractable posterior `P(θ|D)` is approximated, either by a **variational distribution `g(θ|D)`** in neural networks, or with **Monte Carlo methods `q(θ|D)`**(envelop) in probabilistic graphical models.
+ - Any deep learning model is actually a complex system by itself. We have `neurons`(agents), and `non-linear activation functions` between them(agents’ non-linear relations).
+## Neural networks are one of the few methods which can find `non-linear relations` between random variables. 
+
+
+
 
 > some potential downsides in using Gibbs sampling for approximate inference in Bayesian Neural Networks
  - The Gibbs sampler generates one coordinate of the weight vector `w` at a time, which may be very slow for neural networks with tens of millions of weights.
