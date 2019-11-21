@@ -291,7 +291,11 @@ BNNs are comprised of a Probabilistic Model and a Neural Network. The intent of 
  - Any deep learning model is actually a complex system by itself. We have `neurons`(agents), and `non-linear activation functions` between them(agents’ non-linear relations).
 ## Neural Networks are one of the few methods which can find `non-linear relations` between random variables. 
 
+> How to BNN?
+Problem: Big data?
+<img src="https://user-images.githubusercontent.com/31917400/69342568-bb2ff780-0c63-11ea-9287-69eccb0dbc83.jpg" /> 
 
+### Langevin MonteCarlo
 
 
 
