@@ -259,7 +259,7 @@ Let's say we have a bunch of inputs `X` that follows a **certain distribution**.
   
  - ### 4) MCMC and Gibbs Sampling for multiple parameter inference
    Sampling can help a Neural Network model? 
-   <img src="https://user-images.githubusercontent.com/31917400/69334363-718ae100-0c52-11ea-9290-eeda80a80fb8.jpg" /> 
+   <img src="https://user-images.githubusercontent.com/31917400/69334730-4eacfc80-0c53-11ea-8362-2ff3bd2cdd9e.jpg" /> 
    MarKov Chain 
    <img src="https://user-images.githubusercontent.com/31917400/69055084-e23cbe00-0a04-11ea-96f6-b56046fa7153.jpg" /> 
    <img src="https://user-images.githubusercontent.com/31917400/69059687-ea4d2b80-0a0d-11ea-9719-d43990924537.jpg" /> 
