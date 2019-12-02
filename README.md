@@ -15,6 +15,9 @@ It's a probabilistic model for which a graph expresses the **conditional depende
 
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
  - Bayesian networks
+   - Definition: Given X~P(X), and as an ordered DAG:
+   <img src="https://user-images.githubusercontent.com/31917400/69969736-e395dc80-1514-11ea-9776-18de3ca88b37.jpg" />
+   
    - Key: **Factorization of `joint distribution`**
    - `P(a,b,c)` = P(**a|b**,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
    - `P(a,b,c)` = P(**a,b**|c)`P(c)`
@@ -23,6 +26,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
 
  - Markov networks
+   - T.B.D
 
 # A. Representation
 ### 1> Bayesian Network
