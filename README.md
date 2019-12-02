@@ -8,7 +8,7 @@ It's a probabilistic model for which a graph expresses the **conditional depende
  - PGM consists of a graph structure. Each `node` of the graph is associated with a **random variable**, and the `edge` in the graph are used to encode **relations** between the random variables. Because of the way the graph structure encodes the `parameterization` of the probability distribution,
    - It gives us an intuitive and compact data structure for capturing **high dimensional probability distributions**. 
    - It gives us a suite of methods for **efficient reasoning**, using general purpose algorithms.
-   - It gives us a reduction in the number of parameters thus we can represent these high-dimensional probability distribution efficiently using a very small number of parameters. 
+   - It gives us a **reduction in the number of parameters** thus **`we can represent these high-dimensional probability distribution efficiently using a very small number of parameters`**. 
      - By hand: feasible elicitation
      - Automatically: learning from data
    
