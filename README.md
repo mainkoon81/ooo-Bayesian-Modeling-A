@@ -11,7 +11,8 @@ It's a probabilistic model for which a graph expresses the **conditional depende
    - It gives us a suite of methods for **efficient reasoning**, using general purpose algorithms.
    - It gives us a **reduction in the number of parameters** thus **`we can represent these high-dimensional probability distribution efficiently using a very small number of parameters`**. 
      - Reduce factors down. In the graphic, Drop the arrows as many as possible based on conditional independence!
-   
+     <img src="https://user-images.githubusercontent.com/31917400/69965837-01f7da00-150d-11ea-8fcd-2a72fdbbe084.jpg" />
+
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
  - Bayesian networks
    - Key: **Factorization of `joint distribution`**
