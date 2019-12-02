@@ -14,8 +14,8 @@ It's a probabilistic model for which a graph expresses the **conditional depende
      <img src="https://user-images.githubusercontent.com/31917400/69966964-58feae80-150f-11ea-852b-1b4efa485e71.jpg" />
 
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
- - Bayesian networks
-   - Definition: Given X~P(X), and as an ordered DAG, we build a `joint`: where Each variable X_i should be **independent** each other but if some of them are hoplelessly dependent, and we can make them **conditionally independent **, then... 
+ - [a] Bayesian networks
+   - Definition: Given X~P(X), and as an ordered DAG, we build a `joint`: where Each variable X_i should be **independent** each other but if some of them are hoplelessly dependent, and we can make them **conditionally independent**, then... 
      <img src="https://user-images.githubusercontent.com/31917400/69970023-6880f600-1515-11ea-82e4-ed9e176cc946.jpg" />
    
    - Key: **Factorization of `joint distribution`**
@@ -25,8 +25,15 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
    - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
 
- - Markov networks
+ - [b] Markov networks
    - T.B.D
+
+## PGM & Regression
+
+
+## PGM & NaiveBayes
+
+
 
 # A. Representation
 ### 1> Bayesian Network
