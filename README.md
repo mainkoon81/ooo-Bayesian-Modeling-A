@@ -1,4 +1,5 @@
 # ooo-Minkun-Model-Collection-VI-Bayesian-C
+<img src="https://user-images.githubusercontent.com/31917400/52657674-18d32e80-2ef1-11e9-8102-e5b5977b0752.jpg" />
 
 ## Probabilistic Graphical Model
 <img src="https://user-images.githubusercontent.com/31917400/52655869-1a025c80-2eed-11e9-82ba-1fdea931596f.jpg" />
@@ -17,7 +18,6 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - Key: **`Factorization` of probability distribution**
 
  - Markov networks
-<img src="https://user-images.githubusercontent.com/31917400/52657674-18d32e80-2ef1-11e9-8102-e5b5977b0752.jpg" />
 
 # A. Representation
 ### 1> Bayesian Network
