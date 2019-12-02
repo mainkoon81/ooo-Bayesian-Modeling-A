@@ -14,12 +14,13 @@ It's a probabilistic model for which a graph expresses the **conditional depende
    
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
  - Bayesian networks
+   - Key: **`Factorization` of probability distribution**
+
  - Markov networks
 <img src="https://user-images.githubusercontent.com/31917400/52657674-18d32e80-2ef1-11e9-8102-e5b5977b0752.jpg" />
 
 # A. Representation
 ### 1> Bayesian Network
-Key: **`Factorization` of probability distribution**
 <img src="https://user-images.githubusercontent.com/31917400/52790734-36bea180-305f-11e9-83b4-d831b3ac13eb.png" />
 
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks.  
