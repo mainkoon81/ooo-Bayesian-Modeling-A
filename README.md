@@ -10,7 +10,7 @@ It's a probabilistic model for which a graph expresses the **conditional depende
    - It gives us an intuitive and compact data structure for capturing **high dimensional probability distributions**. 
    - It gives us a suite of methods for **efficient reasoning**, using general purpose algorithms.
    - It gives us a **reduction in the number of parameters** thus **`we can represent these high-dimensional probability distribution efficiently using a very small number of parameters`**. 
-     - In the graphic, Drop the arrows as many as possible based on conditional independence!
+     - Reduce factors down. In the graphic, Drop the arrows as many as possible based on conditional independence!
    
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
  - Bayesian networks
