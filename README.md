@@ -17,6 +17,10 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
  - Bayesian networks
    - Key: **Factorization of `joint distribution`**
    - `P(a,b,c)` = P(a|b,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
+   - `P(a,b,c)` = P(a,b|c)`P(c)`
+   - P(**a|b**,`C`): it's mainly a `conditional` = **P(a,b)/P(b)** = P(a,b|`C`)/P(b|`C`) 
+   - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
+   - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
 
  - Markov networks
 
