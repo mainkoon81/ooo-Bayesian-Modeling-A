@@ -28,12 +28,11 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
  - [b] Markov networks
    - T.B.D
 
-## Directed PGM & Regression
+## Directed PGM & OLS Regression
 <img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
-
 ## Directed PGM & NaiveBayes
-
+<img src="" />
 
 
 # A. Representation
