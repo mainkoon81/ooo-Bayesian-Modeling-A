@@ -16,6 +16,7 @@ It's a probabilistic model for which a graph expresses the **conditional depende
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
  - Bayesian networks
    - Key: **`Factorization` of probability distribution**
+   - `P(a,b,c)` = P(a|b,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
 
  - Markov networks
 
