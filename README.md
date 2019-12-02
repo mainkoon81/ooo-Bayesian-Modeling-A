@@ -29,7 +29,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - T.B.D
 
 ## Directed PGM & Regression
-<img src="https://user-images.githubusercontent.com/31917400/69979697-acc8c200-1526-11ea-8fa9-2e06a6c501cb.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
 
 ## Directed PGM & NaiveBayes
