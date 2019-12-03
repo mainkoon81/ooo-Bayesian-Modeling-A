@@ -18,7 +18,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - Definition: Given X~P(X), and as an ordered DAG, we build a `joint`: where Each variable X_i should be **independent** each other but if some of them are hoplelessly dependent, and we can make them **conditionally independent**, then... 
      <img src="https://user-images.githubusercontent.com/31917400/69970023-6880f600-1515-11ea-82e4-ed9e176cc946.jpg" />
    
-   - Key: **Factorization of `joint distribution`**
+   - # Key: **Factorization of `joint distribution`**
    - `P(a,b,c)` = P(**a|b**,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
    - `P(a,b,c)` = P(**a,b**|c)`P(c)`
    - P(**a|b**,`C`): it's mainly a `conditional` = **P(a,b)/P(b)** = P(a,b|`C`)/P(b|`C`) 
