@@ -207,7 +207,7 @@ It uses a `undirected graph` as the intrinsic representation.
    - If Mary has called to report(it's true) that "Hey! the alarm is going off!!!"(don't know if it's true or not), we want to know if there has been a burglary. 
    <img src="https://user-images.githubusercontent.com/31917400/67622039-e0207e80-f80d-11e9-98c9-a121ac5855b4.jpg" />
 
-### Inference_01: Enumeration Method
+## > Inference_01: Enumeration Method
 Go through all possibilities, add them up and come up with an answer. 
  - State the problem and ask the question: "If **Mary** and **John** has called to report that the alarm is going off, we want to know if there has been a **burglary**." 
  <img src="https://user-images.githubusercontent.com/31917400/67623036-735eb180-f818-11e9-9ad2-cbbcc6141961.jpg" />
@@ -235,7 +235,7 @@ Go through all possibilities, add them up and come up with an answer.
  - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
  <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
-### Inference_02: Approximation Method by means of "Sampling"
+## > Inference_02: Approximation Method by means of "Sampling"
 To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments?
 
 (+) Sampling has an advantage over inference 
