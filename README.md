@@ -66,8 +66,18 @@ It defines probability distributions over **graphs of random variables**. Instea
 <img src="https://user-images.githubusercontent.com/31917400/70064102-dd6d3200-15e0-11ea-9868-a00ccd008e22.jpg" />
 
 ### D-Separation
-The knowledge of "child" renders previously independent variables DEPENDENT!
+The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
+
+
+
+
+
+
+
+
+
+
 
 
 ### [Template Model]:
