@@ -62,6 +62,9 @@ Bayes-nets explicitly `encodes the dependencies` between variables to **model jo
 It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
 <img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />
 
+### Example
+<img src="https://user-images.githubusercontent.com/31917400/70064102-dd6d3200-15e0-11ea-9868-a00ccd008e22.jpg" />
+
 ### D-Separation
 The knowledge of "child" renders previously independent variables DEPENDENT!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
