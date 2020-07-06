@@ -1,4 +1,4 @@
-# ooo-Minkun-Model-Collection-VI-Bayesian-C
+# What is PGM ?
 <img src="https://user-images.githubusercontent.com/31917400/52657674-18d32e80-2ef1-11e9-8102-e5b5977b0752.jpg" />
 
 ## Probabilistic Graphical Model
