@@ -1,6 +1,6 @@
 # What is PGM ?
 : It's a probabilistic model for which a graph expresses the **conditional dependence structure** between random variables.
-<img src="https://user-images.githubusercontent.com/31917400/52657674-18d32e80-2ef1-11e9-8102-e5b5977b0752.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/92264526-4702cf80-eed6-11ea-97e7-72618640aa8d.jpg" />
 
 ## Probabilistic Graphical Model
 <img src="https://user-images.githubusercontent.com/31917400/52655869-1a025c80-2eed-11e9-82ba-1fdea931596f.jpg" />
