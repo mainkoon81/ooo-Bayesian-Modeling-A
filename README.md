@@ -37,7 +37,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 
 ---------------------------------------------------------------------------------------------------------
 # (A) Representation
-### 1> Bayesian Network
+## 1> Bayesian Network Intro
 <img src="https://user-images.githubusercontent.com/31917400/93598793-2138f880-f9b5-11ea-82f9-2cd017d66e2f.jpg" />
 
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
@@ -67,18 +67,7 @@ It defines probability distributions over **graphs of random variables**. Instea
 The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
-
-
-
-
-
-
-
-
-
-
-
-### [Template Model]:
+### What is Template Model?
 As an extension on the language on graphical models, **TemplateModel** intends to deal with the very large class of cases. 
  - Template Variable: it is the variables that we end up replicating in many cases again and again within a single model as well as across models. Template model is the dependency models from template variables.  
  - **Template models** can often capture events that occur in a time series. 
@@ -95,7 +84,7 @@ For example,
 
 How do you represent the dependency model over that ensemble in a coherent way?
 
-## Global Structure
+### Global Structure
 > Temporal Model(DBN) with TimeSeries:
  - Template Model incorporates multiple copies of the same variable thus allows us to represent multiple models within a single representation.
  - Plus, this system evolves over time - Dynamic Bayesian Network
@@ -119,7 +108,7 @@ How do you represent the dependency model over that ensemble in a coherent way?
    - From the ground network above, we can see that A and B belong only to plate x, C belongs to x and y, D belongs to x and z and E belongs to all 3. Moreover, there needs to be a direct edge from A to E.
    - These models, by allowing us to represent an intricate network of dependencies, allow us to capture very richly correlated structures in a concise way which allows collective inference. These models can encode correlations across multiple objects allowing collective inference. 
 
-## Local Structure
+### Local Structure
 <img src="https://user-images.githubusercontent.com/31917400/52900377-03aa1880-31ed-11e9-8100-4386992ee220.jpg" />
 
 There are several structures in a parametric form within Conditional Probability Distribution. We hope to reduce the parameter size...but HOW? 
@@ -181,15 +170,9 @@ There are several structures in a parametric form within Conditional Probability
    - Let's imagine that we have a continuous temperature variable and we have a sensor. Now thermometers aren't perfect, so what we would expect is that the sensor is around the right temperature but not quite. And so, one way to capture that is by saying that the sensor follows a normal distribution.
  <img src="https://user-images.githubusercontent.com/31917400/52906349-c7ed6e00-3241-11e9-8859-d0ac04e8257d.jpg" />
 
-### 2> Markov Network
-
-It uses a `undirected graph` as the intrinsic representation. 
 
 
-## Global Structure
 
-
-## Local Structure
 
 
 
