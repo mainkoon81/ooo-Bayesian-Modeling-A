@@ -43,22 +43,26 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
  - It takes the idea of **uncertainty** and marry it with efficient structures. so..one can easily see what uncertain variable influence other uncertain variables.
  
- - ### A single result
+ - ### 1. single result
 <img src="https://user-images.githubusercontent.com/31917400/67561343-8a1be000-f714-11e9-9583-74bcd84a13ad.jpg" />
 
- - ### What if we have multiple test results? `result01`, `result02`, ...
+ - ### 2. multiple results? `result01`, `result02`, ...
 <img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
 
- - ### between result ? **`P( result02 | result01 )`**
+ - ### 3. between results ? **`P( result02 | result01 )`**
  If we Know 'C', its children are independent. so? 
 <img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
- - ### What if we have multiple latent variables(hidden causes)? 
+ - ### 4. multiple latent variables(hidden causes)? 
 <img src="https://user-images.githubusercontent.com/31917400/67586119-c5d09d00-f748-11e9-894d-4e9f5f37de97.jpg" />
 
-### Why Bayes-nets?
+### > Why Bayes-nets?
 It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
 <img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />
+
+### Reasoning Patterns
+
+
 
 ### Example
 <img src="https://user-images.githubusercontent.com/31917400/70064102-dd6d3200-15e0-11ea-9868-a00ccd008e22.jpg" />
