@@ -14,7 +14,7 @@
      <img src="https://user-images.githubusercontent.com/31917400/69966964-58feae80-150f-11ea-852b-1b4efa485e71.jpg" />
 
 Depending on whether the graph is **directed or undirected**, we can classify graphical modes into two categories.
- - [a] Bayesian networks
+ - ## [a] Bayesian networks
    - Definition: Given X~P(X), and as an ordered DAG, we build a `joint`: where Each variable X_i should be **independent** each other but if some of them are hoplelessly dependent, and we can make them **conditionally independent**, then... 
      <img src="https://user-images.githubusercontent.com/31917400/69970023-6880f600-1515-11ea-82e4-ed9e176cc946.jpg" />
    
@@ -24,16 +24,17 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - P(**a|b**,`C`): it's mainly a `conditional` = **P(a,b)/P(b)** = P(a,b|`C`)/P(b|`C`) 
    - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
    - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
+   - Example
+     - Directed PGM & OLS Regression
+       <img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
- - [b] Markov networks
+     - Directed PGM & NaiveBayes
+       <img src="" />
+
+ - ## [b] Markov networks
    - T.B.D
 
-## Example
-Directed PGM & OLS Regression
-<img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
-Directed PGM & NaiveBayes
-<img src="" />
 
 # A. Representation
 ### 1> Bayesian Network
