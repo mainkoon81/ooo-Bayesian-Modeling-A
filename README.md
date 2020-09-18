@@ -38,7 +38,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 ---------------------------------------------------------------------------------------------------------
 # (A) Representation
 ### 1> Bayesian Network
-<img src="https://user-images.githubusercontent.com/31917400/93594511-e1bade00-f9ad-11ea-8a76-083ff6169c21.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/93598029-f8643380-f9b3-11ea-8405-06425a72962f.jpg" />
 
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks.  
 
