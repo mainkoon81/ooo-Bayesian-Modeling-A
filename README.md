@@ -40,9 +40,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 ### 1> Bayesian Network
 <img src="https://user-images.githubusercontent.com/31917400/93598793-2138f880-f9b5-11ea-82f9-2cd017d66e2f.jpg" />
 
-It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks.  
-
-Bayes-nets explicitly `encodes the dependencies` between variables to **model joint distributions**. They are particularly useful because they provide a compact representation for **practically arbitrary distributions**, and efficient algorithms exist to sample and perform inference over the joint distribution.
+It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly `encodes the dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform inference over the joint distribution.
  - It takes the idea of **uncertainty** and marry it with efficient structures.
  - one can easily see what uncertain variable influence other uncertain variables.
  
