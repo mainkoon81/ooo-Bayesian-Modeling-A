@@ -21,9 +21,9 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
    - # Key: **Factorization of `joint distribution`**
    - `P(a,b,c)` = P(**a|b**,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
    - `P(a,b,c)` = P(**a,b**|c)`P(c)`
-   - P(**a|b**,`C`): it's mainly a `conditional` = **P(a,b)/P(b)** = P(a,b|`C`)/P(b|`C`) 
-   - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
-   - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
+     - P(**a|b**,`C`): it's mainly a `conditional` = **P(a,b)/P(b)** = P(a,b|`C`)/P(b|`C`) 
+     - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
+     - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
    - Example
      - Directed PGM & OLS Regression
        <img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
