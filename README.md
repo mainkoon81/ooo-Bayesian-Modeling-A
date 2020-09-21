@@ -30,10 +30,10 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
      - P(**a,b**|`C`): it's mainly a `joint`= **P(a|b)P(b)** = P(a|b,`C`) P(b|`C`) 
      - If `|` is already present, then simply add the extra `C`, otherwise add `|` then add `C`. 
    - Example
-     - Directed PGM & OLS Regression
+     - Directed PGM & Bayesian OLS Regression
        <img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
-     - Directed PGM & NaiveBayes
+     - Directed PGM & Bayesian NaiveBayes
        <img src="https://user-images.githubusercontent.com/31917400/93786998-da9f0480-fc27-11ea-8f9d-df4d3dc7e5d1.jpg" />
 
  - ## [b] Markov networks
