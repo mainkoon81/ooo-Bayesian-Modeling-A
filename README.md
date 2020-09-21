@@ -1,7 +1,7 @@
 # What is PGM ?
 : It's a probabilistic model for which a graph expresses the **conditional dependence structure** between random variables.
 
-: Understanding what makes **`conditional Independence`** b/w variables helps us explain some uncertainty reasoning.
+: Understanding what makes **`Conditional Independence`** b/w variables helps us explain some uncertainty reasoning.
 
 : PGM allows a tractable inference!
 
