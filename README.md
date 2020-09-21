@@ -53,7 +53,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
 
  - ### 2. multiple results? `result01`, `result02`, ...
-   <img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93804845-c87c9080-fc3e-11ea-88cd-663852ae0813.jpg" />
 
  - ### 3. between results ? **`P( result02 | result01 )`**
  If we Know 'C', its children are independent. so? 
