@@ -2,6 +2,9 @@
 : It's a probabilistic model for which a graph expresses the **conditional dependence structure** between random variables.
 
 : Understanding what makes **`conditional Independence`** b/w variables helps us explain some uncertainty reasoning.
+
+: PGM allows a tractable inference!
+
 <img src="https://user-images.githubusercontent.com/31917400/92264526-4702cf80-eed6-11ea-97e7-72618640aa8d.jpg" />
 
 ## Probabilistic Graphical Model
