@@ -34,7 +34,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
        <img src="https://user-images.githubusercontent.com/31917400/69980377-07aee900-1528-11ea-8fad-d6758bf79b65.jpg" />
 
      - Directed PGM & NaiveBayes
-       <img src="" />
+       <img src="https://user-images.githubusercontent.com/31917400/93786998-da9f0480-fc27-11ea-8f9d-df4d3dc7e5d1.jpg" />
 
  - ## [b] Markov networks
    - T.B.D
