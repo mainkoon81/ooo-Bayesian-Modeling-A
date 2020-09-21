@@ -50,7 +50,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
  - ### 1. single result
-   <img src="https://user-images.githubusercontent.com/31917400/93800294-48ebc300-fc38-11ea-9557-44f0b4038e0c.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93802906-f9a79180-fc3b-11ea-9c43-b85a18edf9fb.jpg" />
 
  - ### 2. multiple results? `result01`, `result02`, ...
    <img src="https://user-images.githubusercontent.com/31917400/67567229-6ca14300-f721-11e9-95f0-7493cd287be1.jpg" />
