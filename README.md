@@ -67,7 +67,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - ### (4) multiple parameters..latent variables?...(multiple priors)
    <img src="https://user-images.githubusercontent.com/31917400/93886109-eef10900-fcdc-11ea-8296-a25d93b7ad21.jpg" />
 
-### > Typical Conditional Independence
+### > Typical Conditional Independence: the `SPLIT`
 <img src="https://user-images.githubusercontent.com/31917400/93900089-e9032400-fcec-11ea-822a-a9d3fc39842f.jpg" />
 
 ### > D-Separation and V-Structure
