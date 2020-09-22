@@ -59,7 +59,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    If we Know the **prior**, its **likelihoods** are independent because of the `conditional independence`... so? 
    <img src="https://user-images.githubusercontent.com/31917400/93879530-c0226500-fcd3-11ea-8023-725535b46742.jpg" />
 
- - ### (4) multiple latent variables...(multiple priors)
+ - ### (4) multiple parameters..latent variables?...(multiple priors)
    <img src="https://user-images.githubusercontent.com/31917400/93884065-53f72f80-fcda-11ea-92ca-f7c10c165e63.jpg" />
 
 ### Example
