@@ -60,7 +60,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    <img src="https://user-images.githubusercontent.com/31917400/93879530-c0226500-fcd3-11ea-8023-725535b46742.jpg" />
 
  - ### (4) multiple latent variables...(multiple priors)
-   <img src="https://user-images.githubusercontent.com/31917400/93882116-aaaf3a00-fcd7-11ea-82d2-c9403a1c64dc.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93884065-53f72f80-fcda-11ea-92ca-f7c10c165e63.jpg" />
 
 ### Example
 <img src="https://user-images.githubusercontent.com/31917400/70064102-dd6d3200-15e0-11ea-9868-a00ccd008e22.jpg" />
