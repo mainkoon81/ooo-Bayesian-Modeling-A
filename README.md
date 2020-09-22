@@ -49,17 +49,17 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 ### Reasoning Patterns
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
- - ### (1) single result
+ - ### (1) single result...(a single likelihood)
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
 
- - ### (2) multiple results? `result01`, `result02`, ...
+ - ### (2) multiple results...(multiple likelihoods)
    <img src="https://user-images.githubusercontent.com/31917400/93804845-c87c9080-fc3e-11ea-88cd-663852ae0813.jpg" />
 
- - ### (3) between results ? **`P( result02 | result01 )`**
+ - ### (3) between results ? **`P( likelihood_A | likelihood_B )`**
  If we Know 'C', its children are independent. so? 
    <img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
- - ### (4) multiple latent variables(hidden causes)? 
+ - ### (4) multiple latent variables...(multiple priors)
    <img src="https://user-images.githubusercontent.com/31917400/67586119-c5d09d00-f748-11e9-894d-4e9f5f37de97.jpg" />
 
 ### Example
