@@ -56,7 +56,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    <img src="https://user-images.githubusercontent.com/31917400/93866931-3d43df00-fcc0-11ea-88aa-a6ebab4e1b23.jpg" />
 
  - ### (3) between results ? **`P( likelihood_A | likelihood_B )`**
- If we Know 'C', its children are independent. so? 
+   If we Know the **prior**, its **likelihoods** are independent because of the `conditional independence`... so? 
    <img src="https://user-images.githubusercontent.com/31917400/67569336-7aa59280-f726-11e9-8a70-2e7ed57ed008.jpg" />
 
  - ### (4) multiple latent variables...(multiple priors)
