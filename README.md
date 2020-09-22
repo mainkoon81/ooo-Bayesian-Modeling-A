@@ -20,6 +20,9 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
  - ## [a] Bayesian networks
    - Definition: Given X~P(X), and as an ordered DAG, we build a `joint`: where Each variable X_i should be **independent** each other but if some of them are hoplelessly dependent, and we can make them **conditionally independent**, then... 
      <img src="https://user-images.githubusercontent.com/31917400/69970023-6880f600-1515-11ea-82e4-ed9e176cc946.jpg" />
+
+It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this **`joint distribution`** by using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
+<img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />     
    
    - # Key: **Factorization of `joint distribution`**
    - `P(a,b,c)` = P(**a|b**,c)`P(b,c)` = P(a|b,c)P(b|c)P(c)
@@ -75,9 +78,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - Activation in V-Structures: The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
-### > Why Bayes-nets?
-It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
-<img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />
+
 
 
 
