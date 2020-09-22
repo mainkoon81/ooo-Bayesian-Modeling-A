@@ -50,7 +50,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
 ### Flow of influences...This is interesting! 
-<img src="https://user-images.githubusercontent.com/31917400/93915079-646dd100-fcff-11ea-92e6-8cab61684223.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/93916449-7c465480-fd01-11ea-84f4-cd4a00b3dac5.jpg" />
 
 ### Find the parameters...
  - ### (1) single result...(a single likelihood)
