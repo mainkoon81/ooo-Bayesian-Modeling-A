@@ -53,14 +53,14 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
 
  - ### (2) multiple results...(multiple likelihoods)
-   <img src="https://user-images.githubusercontent.com/31917400/93877618-99aefa80-fcd0-11ea-859b-aca138ad5750.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93878938-ca902f00-fcd2-11ea-8cba-4f12f7c9cac5.jpg" />
 
  - ### (3) between results ? **`P( likelihood_A | likelihood_B )`**
    If we Know the **prior**, its **likelihoods** are independent because of the `conditional independence`... so? 
-   <img src="https://user-images.githubusercontent.com/31917400/93877625-9b78be00-fcd0-11ea-96ed-c3fbd6ed6db7.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93879530-c0226500-fcd3-11ea-8023-725535b46742.jpg" />
 
  - ### (4) multiple latent variables...(multiple priors)
-   <img src="https://user-images.githubusercontent.com/31917400/93877866-14781580-fcd1-11ea-9065-8d8c78081ae0.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/93879534-c1ec2880-fcd3-11ea-9375-864ef6e6a3da.jpg" />
 
 ### Example
 <img src="https://user-images.githubusercontent.com/31917400/70064102-dd6d3200-15e0-11ea-9868-a00ccd008e22.jpg" />
