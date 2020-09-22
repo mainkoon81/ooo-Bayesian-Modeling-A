@@ -46,14 +46,14 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
  - It takes the idea of **uncertainty** and marry it with efficient structures. so..one can easily see what uncertain variable influence other uncertain variables.
 
-### Reasoning Patterns  
+### > Reasoning Patterns  
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
-### Flow of influences...the `V-Structure` is interesting! 
+### > Flow of influences...the `V-Structure` is interesting! 
 <img src="https://user-images.githubusercontent.com/31917400/93917021-4fdf0800-fd02-11ea-9f23-c15fba2e0031.jpg" />
 <img src="https://user-images.githubusercontent.com/31917400/93917802-5a4dd180-fd03-11ea-98d3-7dde2c68be67.jpg" />
 
-### Find the parameters...
+### > Find the parameters...
  - ### (1) single result...(a single likelihood)
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
 
@@ -67,10 +67,10 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - ### (4) multiple parameters..latent variables?...(multiple priors)
    <img src="https://user-images.githubusercontent.com/31917400/93886109-eef10900-fcdc-11ea-8296-a25d93b7ad21.jpg" />
 
-### Typical Conditional Independence
+### > Typical Conditional Independence
 <img src="https://user-images.githubusercontent.com/31917400/93900089-e9032400-fcec-11ea-822a-a9d3fc39842f.jpg" />
 
-### D-Separation and V-Structure
+### > D-Separation and V-Structure
  - D-Blocking in ordinary structures: The knowledge of any nodes on the influence stream will split the whole structure.    
  - Activation in V-Structures: The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
@@ -78,6 +78,11 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 ### > Why Bayes-nets?
 It defines probability distributions over **graphs of random variables**. Instead of enumerating all possibilities of combinations of multiple random variables, it defines probability distributions that are inherent to each individual node. The definition of this joint distribution bu using such factors has one great advantage: `we can reduce the number of probability values(parameters) required`.
 <img src="https://user-images.githubusercontent.com/31917400/67589802-3ed3f280-f751-11e9-8de9-a5eca09adb8b.jpg" />
+
+
+
+
+
 
 
 ### What is Template Model?
