@@ -71,7 +71,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 <img src="https://user-images.githubusercontent.com/31917400/93900089-e9032400-fcec-11ea-822a-a9d3fc39842f.jpg" />
 
 ### D-Separation and V-Structure
-The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
+ - Activation: The knowledge of `"child"` renders previously independent variables **DEPENDENT**!
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
 ### > Why Bayes-nets?
