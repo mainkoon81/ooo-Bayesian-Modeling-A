@@ -49,7 +49,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 ### Reasoning Patterns  
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
-### Flow of influences...This is interesting! 
+### Flow of influences...the `V-Structure` is interesting! 
 <img src="https://user-images.githubusercontent.com/31917400/93917021-4fdf0800-fd02-11ea-9f23-c15fba2e0031.jpg" />
 <img src="https://user-images.githubusercontent.com/31917400/93917802-5a4dd180-fd03-11ea-98d3-7dde2c68be67.jpg" />
 
