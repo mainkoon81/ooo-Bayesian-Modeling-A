@@ -48,7 +48,9 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 
 ### Reasoning Patterns
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/93913289-c547da00-fcfc-11ea-9f6c-bc03823791d7.jpg" />
 
+### Find the parameters...
  - ### (1) single result...(a single likelihood)
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
 
