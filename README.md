@@ -4,7 +4,7 @@
 : Understanding what makes **`Conditional Independence`** b/w variables helps us explain some uncertainty reasoning. If x, y are conditionally independent on `z`, then
  - P(x | y,`z`) = P(x|`z`)
  - P(x,y | `z`) = P(x|`z`) * P(y|`z`)
- - P(x, y, z) ∝ ϕ(x,`z`) * ϕ(y,`z`)
+ - P(x, y, z) ∝ ϕ(x,`z`) * ϕ(y,`z`) ????
 
 : PGM allows a tractable inference!
 
