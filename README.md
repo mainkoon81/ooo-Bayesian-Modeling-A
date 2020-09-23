@@ -59,9 +59,6 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 <img src="https://user-images.githubusercontent.com/31917400/93917021-4fdf0800-fd02-11ea-9f23-c15fba2e0031.jpg" />
 <img src="https://user-images.githubusercontent.com/31917400/93917802-5a4dd180-fd03-11ea-98d3-7dde2c68be67.jpg" />
 
-### D and S (w/o any obv). Are they really independent? A proof using marginalization...
-<img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
-
 ### > Find the parameters...
  - ### (1) single result...(a single likelihood)
    <img src="https://user-images.githubusercontent.com/31917400/93803092-425f4a80-fc3c-11ea-80db-801a4466c645.jpg" />
@@ -84,7 +81,8 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - Activation in V-Structures: The knowledge of `"child"` renders previously independent variables **DEPENDENT** (the dependence gets activated). 
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
-
+> We don't have any obv. We can see the V-Structure, but its child is not observed.  D and S - are they really independent? A proof using marginalization...
+<img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
 
 
