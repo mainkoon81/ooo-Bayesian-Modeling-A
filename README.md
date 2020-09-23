@@ -52,7 +52,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
  - It takes the idea of **uncertainty** and marry it with efficient structures. so..one can easily see what uncertain variable influence other uncertain variables.
 
-### > Reasoning Patterns  
+## 2> Bayesian Network Reasoning Patterns  
 <img src="https://user-images.githubusercontent.com/31917400/93623864-4cccda80-f9d7-11ea-8750-4784e84de874.jpg" />
 
 ### > Flow of influences...the `V-Structure` is interesting! 
@@ -81,9 +81,11 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - Activation in V-Structures: The knowledge of `"child"` renders previously independent variables **DEPENDENT** (the dependence gets activated). 
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
-> We don't have any obv. We can see the V-Structure, but its child is not observed.  D and S - are they really independent because of the inactivated child? A proof using marginalization...
+> [Note] We don't have any obv. We can see the V-Structure, but its child is not observed.  D and S - are they really independent because of the inactivated child? A proof using marginalization...
 <img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
+> [Note] Naive-Bayes for classification
+<img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
 
 
