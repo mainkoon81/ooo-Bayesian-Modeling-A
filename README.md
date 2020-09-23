@@ -85,7 +85,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
    <img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
 > [Note] Naive-Bayes for classification
- - __Independence assumption in Naive Bayes:__ Given the class variable, each observed variable is independent of the other observed variables. In other words, if we observe the class variable, influence cannot flow between any of the other variables. It's like a typical "tail-to-tail" structure.
+ - __Independence assumption in Naive Bayes:__ Given the class variable, each observed variable is independent of the other observed variables. In other words, if we observe the class variable, influence cannot flow between any of the other child variables. It's like a typical "tail-to-tail" structure. But Think! the Class has not yet been observed. So it's naive to say all features are independent? 
    <img src="https://user-images.githubusercontent.com/31917400/94045116-e96fed80-fdc6-11ea-9e62-14581ac9877b.jpg" />
 
 
