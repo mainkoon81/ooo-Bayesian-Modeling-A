@@ -89,10 +89,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 
 
 
-
-
-
-
+## A3> Template Model
 ### What is Template Model?
 As an extension on the language on graphical models, **TemplateModel** intends to deal with the very large class of cases. 
  - Template Variable: it is the variables that we end up replicating in many cases again and again within a single model as well as across models. Template model is the dependency models from template variables.  
