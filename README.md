@@ -84,8 +84,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 > [Note] We don't have any obv. We can see the V-Structure, but its child is not observed.  D and S - are they really independent because of the inactivated child? A proof using marginalization...
    <img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
-> [Note] Naive-Bayes for classification
- - __Independence assumption in Naive Bayes:__ Given the class variable, each observed variable is independent of the other observed variables. In other words, if we observe the class variable, influence cannot flow between any of the other child variables. It's like typical D-seperations. But Think! the Class has not yet been observed. So it's naive to say all features are independent? 
+> [Note] __Independence assumption in Naive Bayes Classification:__ Given the class variable, each observed variable is independent of the other observed variables. In other words, if we observe the class variable, influence cannot flow between any of the other child variables. It's like typical D-seperations. But Think! the Class has not yet been observed. So it's naive to say all features are independent? 
    <img src="https://user-images.githubusercontent.com/31917400/94045116-e96fed80-fdc6-11ea-9e62-14581ac9877b.jpg" />
 
 
