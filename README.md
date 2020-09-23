@@ -81,6 +81,8 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
  - Activation in V-Structures: The knowledge of `"child"` renders previously independent variables **DEPENDENT** (the dependence gets activated). 
 <img src="https://user-images.githubusercontent.com/31917400/67591895-6083a880-f756-11e9-992b-6bb649a348e4.jpg" />
 
+### marginalization example...
+<img src="https://user-images.githubusercontent.com/31917400/94021208-abb19b80-fdab-11ea-9d43-048d667aeea0.jpg" />
 
 
 
