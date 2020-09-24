@@ -107,23 +107,7 @@ __What is Template Model?__ As an extension on the language on graphical models,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## A4> 
 
 
 
