@@ -94,8 +94,8 @@ BN can be used for a wide range of tasks including prediction, anomaly detection
  - Kalman filter (KFM)
  - Time series clustering, etc.
  
-   - 1) Transition by time
-   - 2) Emissions or obv
+   - 1) "Transition" Probability by time (b/w parents?)
+   - 2) "Emission" Probability (for each child?)
    <img src="https://user-images.githubusercontent.com/31917400/94159359-59d84680-fe7b-11ea-806c-65351eb9313a.jpg" />
 
 __What is Template Model?__ As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. So..it extends standard Bayesian networks with the concept of time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
