@@ -89,21 +89,14 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 
 
 
-## A3> Template Model
+## A3> Template Model (Dynamic Bayesian Network)
 ### What is Template Model?
-As an extension on the language on graphical models, **TemplateModel** intends to deal with the very large class of cases. 
- - **Template Variable:** it is the variables that we end up replicating in many cases again and again within a single model as well as across models. The typical example is the location of a robot at any given time. Template model is the dependency models from template variables.  
- - **Template models** can often capture events that occur in a time series. 
+As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (At the end of the day, however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
+ - **Template Variable:** it is the variables that we end up replicating in many cases again and again within a single model as well as across models. The typical example is the location of a robot at any given time. ConditionalProbabilityDistribution in **template models** can often be copied many times.
+ - **Template models** are just the dependency models from template variables.  
+ - **Template models** can often capture events that occur in a **time series**. 
  - **Template models** can capture `parameter sharing` within a model.
- - ConditionalProbabilityDistribution in **template models** can often be copied many times.
-   - They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure. At the end of the day, however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers.
-<img src="https://user-images.githubusercontent.com/31917400/52852977-071ca180-3112-11e9-8928-f44a07c0f347.jpg" />
-
-For example,
- - Dynamic Bayesian Network(DBN): to deal with temporal processes where we have replication over time.
- - Object Relational Model:
-   - Directed: Bayesian Network
-   - Undirected: Markov Network
+ <img src="https://user-images.githubusercontent.com/31917400/52852977-071ca180-3112-11e9-8928-f44a07c0f347.jpg" />
 
 How do you represent the dependency model over that ensemble in a coherent way?
 
