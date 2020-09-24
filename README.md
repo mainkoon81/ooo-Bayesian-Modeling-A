@@ -49,7 +49,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 ## A1> Bayesian Network Intro
 <img src="https://user-images.githubusercontent.com/31917400/93762637-e11d8400-fc07-11ea-936a-af4382c997bf.jpg" />
 
-It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
+BN can be used for a wide range of tasks including prediction, anomaly detection, diagnostics, automated insight, reasoning, time series prediction and decision making under uncertainty. It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
  - It takes the idea of **uncertainty** and marry it with efficient structures. so..one can easily see what uncertain variable influence other uncertain variables.
 
 ## A2> Bayesian Network Reasoning Patterns  
@@ -89,16 +89,39 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 
 
 
-## A3> Template Model (Dynamic Bayesian Network)
-### What is Template Model?
-As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (At the end of the day, however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
- - **Template Variable:** it is the variables that we end up replicating in many cases again and again within a single model as well as across models. The typical example is the locations (trajectories) of a robot given time period. ConditionalProbabilityDistribution in **template models** can often be copied many times.
+## A3> Template Model (Dynamic Bayesian Network or Time Series Network)
+ - Hidden Markov model (HMM)
+ - Kalman filter (KFM)
+ - Time series clustering, etc.
+ 
+__What is Template Model?__ As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. So..it extends standard Bayesian networks with the concept of time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
+ - **Template Variable:** it is the variables that we end up replicating in many cases **within a single model** as well as **across models**. The typical example is the locations (trajectories) of a robot given time period. ConditionalProbabilityDistribution in **template models** can often be copied many times.
  - **Template models** are just the dependency models from template variables.  
  - **Template models** can often capture events that occur in a **time series**. 
  - **Template models** can capture `parameter sharing` within a model.
  <img src="https://user-images.githubusercontent.com/31917400/52852977-071ca180-3112-11e9-8928-f44a07c0f347.jpg" />
 
-How do you represent the dependency model over that ensemble in a coherent way?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Global Structure
 > Temporal Model(DBN) with TimeSeries:
