@@ -122,13 +122,7 @@ __What is Template Model?__ As an extension on the language on graphical models,
    
  - From the ground network above, we can see that A and B belong only to plate x, C belongs to x and y, D belongs to x and z and E belongs to all 3. Moreover, there needs to be a direct edge from A to E. These models, by allowing us to represent an intricate network of dependencies, allow us to capture very richly correlated structures in a concise way which allows collective inference. These models can encode correlations across multiple objects allowing collective inference. 
 
-### Global Structure
-
-
-
-
-
-### Local Structure
+### Local Structure ?
 <img src="https://user-images.githubusercontent.com/31917400/52900377-03aa1880-31ed-11e9-8100-4386992ee220.jpg" />
 
 There are several structures in a parametric form within Conditional Probability Distribution. We hope to reduce the parameter size...but HOW? 
