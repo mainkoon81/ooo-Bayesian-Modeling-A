@@ -92,7 +92,7 @@ It uses a `directed graph` as the intrinsic representation. Bayesian Network is 
 ## A3> Template Model (Dynamic Bayesian Network)
 ### What is Template Model?
 As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (At the end of the day, however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
- - **Template Variable:** it is the variables that we end up replicating in many cases again and again within a single model as well as across models. The typical example is the locations (trajectories) of a robot at any given time. ConditionalProbabilityDistribution in **template models** can often be copied many times.
+ - **Template Variable:** it is the variables that we end up replicating in many cases again and again within a single model as well as across models. The typical example is the locations (trajectories) of a robot given time period. ConditionalProbabilityDistribution in **template models** can often be copied many times.
  - **Template models** are just the dependency models from template variables.  
  - **Template models** can often capture events that occur in a **time series**. 
  - **Template models** can capture `parameter sharing` within a model.
