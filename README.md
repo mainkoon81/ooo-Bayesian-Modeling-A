@@ -96,7 +96,7 @@ BN can be used for a wide range of tasks including prediction, anomaly detection
  
    - 1) "Transition" Probability by time (b/w parents?)
    - 2) "Emission" Probability (for each child?)
-   <img src="https://user-images.githubusercontent.com/31917400/94159359-59d84680-fe7b-11ea-806c-65351eb9313a.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/94165291-f6054c00-fe81-11ea-8b09-9bb5ebe0b04f.jpg" />
 
 __What is Template Model?__ As an extension on the language on graphical models, **Template Model** intends to deal with temporal processes where we have many replication over time. So..it extends standard Bayesian networks with the concept of time. They are a convenient way of representing Bayesian networks that have a high amount of parameter sharing and structure (however, they are merely compact representations of a fully unrolled Bayesian network, so it's not to say it has an additional representative powers).
  - **Template Variable:** it is the variables that we end up replicating in many cases **within a single model** as well as **across models**. The typical example is the locations (trajectories) of a robot given time period. ConditionalProbabilityDistribution in **template models** can often be copied many times.
