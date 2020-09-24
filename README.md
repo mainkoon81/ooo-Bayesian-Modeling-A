@@ -94,6 +94,8 @@ BN can be used for a wide range of tasks including prediction, anomaly detection
  - Kalman filter (KFM)
  - Time series clustering, etc.
  
+ This system evolves over time ? 
+   - HMM: Although Hidden Markov Models can be viewed as a subclass of dynamic Bayesian networks, they have their own type of structure that makes them particularly useful for a broad range of applications.
    - 1) "Transition" Probability by time (b/w parents?)
    - 2) "Emission" Probability (for each child?)
    <img src="https://user-images.githubusercontent.com/31917400/94165291-f6054c00-fe81-11ea-8b09-9bb5ebe0b04f.jpg" />
@@ -107,20 +109,12 @@ __What is Template Model?__ As an extension on the language on graphical models,
 
 
 
-## A4> 
-
-
-
-### Global Structure
-> Temporal Model(DBN) with TimeSeries:
- - Template Model incorporates multiple copies of the same variable thus allows us to represent multiple models within a single representation.
- - Plus, this system evolves over time - Dynamic Bayesian Network
+## A4> Global / Local structure
+ - Global Structure
+   - Dynamic Basian Network?
+   - HMM? 
  
-> Temporal Model(HMM):
- - Although Hidden Markov Models can be viewed as a subclass of dynamic Bayesian networks, they have their own type of structure that makes them particularly useful for a broad range of applications.
-
-> Plate Model:
- - Model the repeatition! If we toss the same coin again and again, how to model this repeatition? 
+> [Note] Model the repeatition! If we toss the same coin again and again, how to model this repeatition? 
    - put a little box around that outcome variable, and this box which is called a plate(whyyy? coz it's a stack of identical pieces). A plate denotes that the outcome variable is **indexed**. 
    - sometimes in many models, we will include all parameters explicitly within the model. But often when you have a parameter that's outside of all plates, we won't denote it explicitly. So we just omit it.
 <img src="https://user-images.githubusercontent.com/31917400/52870574-11ee2b00-3140-11e9-9ac1-a8ce07c4bb91.jpg" />
@@ -134,6 +128,12 @@ __What is Template Model?__ As an extension on the language on graphical models,
    
    - From the ground network above, we can see that A and B belong only to plate x, C belongs to x and y, D belongs to x and z and E belongs to all 3. Moreover, there needs to be a direct edge from A to E.
    - These models, by allowing us to represent an intricate network of dependencies, allow us to capture very richly correlated structures in a concise way which allows collective inference. These models can encode correlations across multiple objects allowing collective inference. 
+
+
+
+
+
+
 
 ### Local Structure
 <img src="https://user-images.githubusercontent.com/31917400/52900377-03aa1880-31ed-11e9-8100-4386992ee220.jpg" />
