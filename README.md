@@ -127,6 +127,7 @@ No more Tabular representations for CPD!!!!
  <img src="https://user-images.githubusercontent.com/31917400/94267607-cf9fe900-ff33-11ea-8536-34a59711d8b4.jpg" />
 
 > Instead,...there are several local structures (in a parametric form) for **Conditional Probability Distributions**. And..we hope to reduce the parameter size, Using...1.Deterministic Structure?, 2.Tree Structure?, 3.Logistic Structure?, 4.Noisy(Or/And) Structure?, 5.Continuous Structure?
+## `Are they crazy V-Structures?` 
 
 ### a) Deterministic Structured CPD
 <> __Context-Specific Independent structure:__ The independent statement b/w two variable(X,Y) only holds for particular values of the conditioning variable c for example. So the dependence only happening in a certain context. 
@@ -135,7 +136,7 @@ No more Tabular representations for CPD!!!!
 
 ### b) Tree Structured CPD
 <> __Context-Specific Independent tree:__ The independent statement b/w two variable(X,Y) only holds for particular values of the conditioning variable C for example. So the dependence is only happening in a certain context.
-<img src="https://user-images.githubusercontent.com/31917400/94292897-7779de80-ff55-11ea-9285-7acf271add2a.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/94295022-8d3cd300-ff58-11ea-9a91-9510c12c3f08.jpg" />
 
 <> __Non**-Context-Specific Independent tree (Multiplexer Model):__ As an additional structure, **Multiplexer(as a Parent)** activates the `V-structure`. This will dramatically reduce the size of parameters.  
 <img src="https://user-images.githubusercontent.com/31917400/52902687-1c75f680-320c-11e9-9b0d-ca8af4f6ca8f.jpg" />
