@@ -123,22 +123,18 @@ __What is Template Model?__ As an extension on the language on graphical models,
  - From the ground network above, we can see that A and B belong only to plate x, C belongs to x and y, D belongs to x and z and E belongs to all 3. Moreover, there needs to be a direct edge from A to E. These models, by allowing us to represent an intricate network of dependencies, allow us to capture very richly correlated structures in a concise way which allows collective inference. These models can encode correlations across multiple objects allowing collective inference. 
 
 ## Local Structure ????
-<img src="https://user-images.githubusercontent.com/31917400/52900377-03aa1880-31ed-11e9-8100-4386992ee220.jpg" />
+No more Tabular representations!!!!
+    <img src="https://user-images.githubusercontent.com/31917400/52900377-03aa1880-31ed-11e9-8100-4386992ee220.jpg" />
 
-There are several structures in a parametric form within Conditional Probability Distribution. We hope to reduce the parameter size...but HOW? 
- - a)Deterministic Structure
- - b)Tree Structure
- - c)Logistic Structure
- - d)Noisy(Or/And) Structure
- - e)Continuous Structure
+> There are several local structures (in a parametric form) within Conditional Probability Distribution. And..we hope to reduce the parameter size...but HOW? BY...1.Deterministic Structure?, 2.Tree Structure?, 3.Logistic Structure?, 4.Noisy(Or/And) Structure?, 5.Continuous Structure?
 
-> a) Deterministic Structure
+### a) Deterministic Structure
 <img src="https://user-images.githubusercontent.com/31917400/52900959-f98c1800-31f4-11e9-8daa-67710a994fa0.jpg" />
 
  - Context-Specific Independent structure
    - The independent statement b/w two variable(X,Y) only holds for particular values of the **conditioning variable C**. So the dependence only happening in a certain context. 
 
-> b) Tree Structure
+### b) Tree Structure
 <img src="https://user-images.githubusercontent.com/31917400/52902425-6c52be80-3208-11e9-8f57-130d90e55ef1.jpg" />
 
  - Context-Specific Independent tree
@@ -151,7 +147,7 @@ There are several structures in a parametric form within Conditional Probability
      - The Multiplexer Tree is very useful! It comes up in physical hardware configuration settings. It turns out that all of the troubleshooters that are part of the Microsoft operating system are, Built on top of a Bayesian Network Technology. The task is to try and figure out **why a printer isn't printing**. So we have a variable here that tells us whether the printer is producing output, and that depends on a variety of factors, but one of the factors that it depends on is where the printer input is coming from: `Is it coming from a local transport? Or a network transport?`. And, depending on which of those it's coming from, there's a different set of failures that might occur. So the variable here that serves the goal of the **selector(Multiplexer) variable** is this variable `print data out`. And that's the root of the tree that's used here. And and depending on whether the print location is local or not. then you depend either on properties of the local transport. Or on properties of the network transport. And it turns out that even in this very, very simple network, the use of tree CPD's `reduces the number of parameters` from 145 to about 55, and makes the elicitation process much easier. 
      <img src="https://user-images.githubusercontent.com/31917400/52902788-978bdc80-320d-11e9-935b-691a91a1e2a2.jpg" />
 
-> c) Noisy(Or/And) Structure
+### c) Noisy(Or/And) Structure
 <img src="https://user-images.githubusercontent.com/31917400/52904371-4e468780-3223-11e9-8c78-c72c7ab90c28.jpg" />
 
  - What if there are **so many factors** that contribute something to the probability of exhibiting phenomenon? 
@@ -166,7 +162,7 @@ There are several structures in a parametric form within Conditional Probability
    - Each `Zi` have their own separate mechanism and ultimately it's all aggregated together in a single variable `Z` from which the truth of Y is then determined from this aggregate effect.  
    <img src="https://user-images.githubusercontent.com/31917400/52904801-f874de00-3228-11e9-99cc-56067beca889.jpg" />
 
-> d) Logistic Structure
+### d) Logistic Structure
 <img src="https://user-images.githubusercontent.com/31917400/52904828-6e794500-3229-11e9-9e37-aca824bc0268.jpg" />
 
  - In a sigmoid CPD, each discrete **Xi** induces a continuous `Zi` which represents `Wi*Xi`. 
@@ -177,7 +173,7 @@ There are several structures in a parametric form within Conditional Probability
  - Then we turn this ultimately into the probability of the **target variable Y** by passing this continuous quantity `Z` through a Sigmoid Function(squelching func). 
    - Since **e to the power of `Z`** is a positive number, this gives us a number that is always in the interval of {0,1}.
 
-> e) Continuous Structure
+### e) Continuous Structure
 <img src="https://user-images.githubusercontent.com/31917400/52906319-31b94800-3241-11e9-80b0-3e7b2fd646bf.jpg" />
 
  - When our network involves continuous variable..
