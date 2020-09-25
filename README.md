@@ -126,7 +126,7 @@ __What is Template Model?__ As an extension on the language on graphical models,
 No more Tabular representations!!!!
  <img src="https://user-images.githubusercontent.com/31917400/94267607-cf9fe900-ff33-11ea-8536-34a59711d8b4.jpg" />
 
-> There are several local structures (in a parametric form) within Conditional Probability Distribution. And..we hope to reduce the parameter size...but HOW? BY...1.Deterministic Structure?, 2.Tree Structure?, 3.Logistic Structure?, 4.Noisy(Or/And) Structure?, 5.Continuous Structure?
+> Instead,...there are several local structures (in a parametric form) for Conditional Probability Distributions. And..we hope to reduce the parameter size, Using...1.Deterministic Structure?, 2.Tree Structure?, 3.Logistic Structure?, 4.Noisy(Or/And) Structure?, 5.Continuous Structure?
 
 ### a) Deterministic Structure
 <img src="https://user-images.githubusercontent.com/31917400/52900959-f98c1800-31f4-11e9-8daa-67710a994fa0.jpg" />
