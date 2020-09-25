@@ -159,7 +159,7 @@ What if there are **so many factors** that contribute something to the probabili
 <> **Noisy-AND (Noisy_Max) cpd** can capture such interaction.
    - This is called independence of causal influence because it assumes that you have a bunch of causes and each of them acts independently to affect the truth of that child variable. so, there's no interactions between the different causes.
    - Each `Zi` have their own separate mechanism and ultimately it's all aggregated together in a single variable `Z` from which the truth of Y is then determined from this aggregate effect.  
-   <img src="https://user-images.githubusercontent.com/31917400/52904801-f874de00-3228-11e9-99cc-56067beca889.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/94306496-f9c0cd80-ff6a-11ea-847a-7ee3590a29ea.jpg" />
 
 ### d) Logistic Structured CPD
 <img src="https://user-images.githubusercontent.com/31917400/52904828-6e794500-3229-11e9-9e37-aca824bc0268.jpg" />
