@@ -147,7 +147,7 @@ No more Tabular representations for CPD!!!!
 
 
 ### c) Noisy(Or/And) Structured CPD
-What if there are **so many factors** that contribute something to the probability of exhibiting phenomenon? 
+What if there are **so many factors** that contribute something to the probability of exhibiting phenomenon such as "cough"? 
 <img src="https://user-images.githubusercontent.com/31917400/52904371-4e468780-3223-11e9-8c78-c72c7ab90c28.jpg" />
 
 <> **Noisy-OR model** can capture such interaction. 
