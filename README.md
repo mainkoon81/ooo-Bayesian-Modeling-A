@@ -127,7 +127,7 @@ No more Tabular representations for CPD!!!!
  <img src="https://user-images.githubusercontent.com/31917400/94267607-cf9fe900-ff33-11ea-8536-34a59711d8b4.jpg" />
 
 > Instead,...there are several local structures (in a parametric form) for **Conditional Probability Distributions**. And..we hope to reduce the parameter size, Using...1.Deterministic Structure?, 2.Tree Structure?, 3.Logistic Structure?, 4.Noisy(Or/And) Structure?, 5.Continuous Structure?
-## `This is about the story of crazy V-Structures?` 
+## `This is about the story of crazy V-Structures` of Conditional Probability Distribution 
 
 ### a) Deterministic Structured CPD
 <> __Context-Specific Independent structure:__ The independent statement b/w two variable(X,Y) only holds for particular values of the conditioning variable c for example. So the dependence only happening in a certain context. 
