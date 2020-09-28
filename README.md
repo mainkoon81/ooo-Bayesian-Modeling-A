@@ -137,7 +137,7 @@ No more Tabular representations for CPD!!!!
 
 ### b) Tree Structured CPD
 <> __Context-Specific Independent tree:__ The independent statement b/w two variable(X,Y) only holds for particular values of the conditioning variable C for example. So the dependence is only happening in a certain context.
-<img src="https://user-images.githubusercontent.com/31917400/94295022-8d3cd300-ff58-11ea-9a91-9510c12c3f08.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/94427673-5e587400-0187-11eb-9df4-7aafd946a1e4.jpg" />
 
 <> __Non**-Context-Specific Independent tree (Multiplexer Model):__ As an additional structure, **multiplexer(as a Parent, a selector)** activates the `V-structure`. This will dramatically reduce the size of parameters.  
 <img src="https://user-images.githubusercontent.com/31917400/94304746-f546e580-ff67-11ea-850b-030e2a7efa12.jpg" />
