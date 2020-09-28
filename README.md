@@ -178,7 +178,7 @@ What if there are **so many factors** that contribute something to the probabili
    - Since **e to the power of `Z`** is a positive number, this gives us a number that is always in the interval of {0,1}.
    <img src="https://user-images.githubusercontent.com/31917400/94438687-5b657f80-0197-11eb-9218-4423552aac1d.jpg" />
    
- - > **Therefore, only the certain amount of observed features will activate Y !
+ - > **Therefore, only the number of observed features bigger than certain threshold will activate Y !
 
 
 ### e) Continuous Structured CPD
