@@ -157,12 +157,14 @@ What if there are **so many factors** that contribute something to the probabili
    - Then what is the probability that all of these **Z**guys fail to turn on the variable Y? So, when does `Y keeps sleeping`? First of all, when it doesn't get turned on by the **leak**(![formula](https://render.githubusercontent.com/render/math?math=\lambda_0)=**`P(Y get activated by itself)`**) . So, that's ![formula](https://render.githubusercontent.com/render/math?math=1-\lambda_0) x **`P(none of Z activate Y)`**.
    <img src="https://user-images.githubusercontent.com/31917400/94306201-6e473c80-ff6a-11ea-9091-a4432e1a2154.jpg" />
    
-   - **Therefore,... Given that Y = 0, we know that all ![formula](https://render.githubusercontent.com/render/math?math=\lambda_i) from ![formula](https://render.githubusercontent.com/render/math?math=Z_i) are 0; so that blocks the trail of influence from ![formula](https://render.githubusercontent.com/render/math?math=X_1toX_2)...so..all features are independent!
+   - > **Therefore,... Given that Y = 0, we know that all ![formula](https://render.githubusercontent.com/render/math?math=\lambda_i) from ![formula](https://render.githubusercontent.com/render/math?math=Z_i) are 0; so that blocks the trail of influence from ![formula](https://render.githubusercontent.com/render/math?math=X_1toX_2)...so..all features are independent!
    
 <> **Noisy-AND (Noisy_Max) cpd** can capture such interaction.
    - This is called independence of causal influence because it assumes that you have a bunch of causes and each of them acts independently to affect the truth of that child variable. so, there's no interactions between the different causes.
    - Each `Zi` have their own separate mechanism and ultimately it's all aggregated together in a single variable `Z` from which the truth of Y is then determined from this aggregate effect.  
    <img src="https://user-images.githubusercontent.com/31917400/94306496-f9c0cd80-ff6a-11ea-847a-7ee3590a29ea.jpg" />
+   
+   - > **Therefore,...Given that Y = 0, it's not to say all features are independent ???
 
 ### d) Logistic Structured CPD
 <img src="https://user-images.githubusercontent.com/31917400/94437696-06753980-0196-11eb-8ab4-0169dbc9446f.jpg" />
@@ -176,7 +178,7 @@ What if there are **so many factors** that contribute something to the probabili
    - Since **e to the power of `Z`** is a positive number, this gives us a number that is always in the interval of {0,1}.
    <img src="https://user-images.githubusercontent.com/31917400/94438687-5b657f80-0197-11eb-9218-4423552aac1d.jpg" />
    
- - **Therefore, only the certain amount of observed features will activate Y !
+ - > **Therefore, only the certain amount of observed features will activate Y !
 
 
 ### e) Continuous Structured CPD
