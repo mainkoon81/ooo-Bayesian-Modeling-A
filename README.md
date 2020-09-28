@@ -152,9 +152,9 @@ What if there are **so many factors** that contribute something to the probabili
 <img src="https://user-images.githubusercontent.com/31917400/52904371-4e468780-3223-11e9-8c78-c72c7ab90c28.jpg" />
 
 <> **Noisy-OR cpd** can capture such interaction. 
-   - It is a larger graphical model where we break down the dependencies of Y on its parents (X1 up to Xk), by introducing a bunch of `intervening variables`. They are noisy transmitters or filters. So Y becomes true only if these filters succeeds in making it true. 
-   - Then what is the probability that all of these **Z**guys fail to turn on the variable Y? So, when does y fail to get turned on?
-     - First of all, when it doesn't get turned on by the `leak`. So, that's one minus lambda zero x the probability that none of Z causes Y turned on.
+   - It is a larger graphical model where we break down the dependencies of Y on its parents (X1 up to Xk), by introducing a bunch of `intervening variables` as noisy transmitters or filters. So Y becomes true only if these filters succeeds in making it true. 
+   - Even one single **Z** that turns out to be true, can activate **Y**... Then what is the probability that all of these **Z**guys fail to turn on the variable Y? So, when does Y fail to get activated?
+     - First of all, when it doesn't get turned on by the `leak`. So, that's ![formula](https://render.githubusercontent.com/render/math?math=1-\lambda_0) x **`P(none of Z causes Y turned on)`**.
    <img src="https://user-images.githubusercontent.com/31917400/94306201-6e473c80-ff6a-11ea-9091-a4432e1a2154.jpg" />
    
 <> **Noisy-AND (Noisy_Max) cpd** can capture such interaction.
