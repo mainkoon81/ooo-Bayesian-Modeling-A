@@ -165,7 +165,7 @@ What if there are **so many factors** that contribute something to the probabili
    <img src="https://user-images.githubusercontent.com/31917400/94306496-f9c0cd80-ff6a-11ea-847a-7ee3590a29ea.jpg" />
 
 ### d) Logistic Structured CPD
-<img src="https://user-images.githubusercontent.com/31917400/52904828-6e794500-3229-11e9-9e37-aca824bc0268.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/94436869-e729dc80-0194-11eb-8c1a-87a6eec1c2a8.jpg" />
 
  - In a sigmoid CPD, each discrete **Xi** induces a continuous `Zi` which represents `Wi*Xi` (convert `discrete` into `continuous`). 
  - `Wi` parameterizes this edge and tells us how much force **Xi** is going to exert on **making Y true** so, if `Wi` is zero, it tells us that **Xi** exerts no influence whatsoever. 
