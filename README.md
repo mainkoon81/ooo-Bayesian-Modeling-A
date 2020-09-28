@@ -192,6 +192,7 @@ What if there are **so many factors** that contribute something to the probabili
 Decision making under uncertainty
 
 ### a) Maximum Expected Utility
+<img src="https://user-images.githubusercontent.com/31917400/94472138-389c9080-01c2-11eb-9385-6c43f7d83844.jpg" />
 
 
 
