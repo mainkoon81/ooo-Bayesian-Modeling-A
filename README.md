@@ -157,7 +157,7 @@ What if there are **so many factors** that contribute something to the probabili
    - Then what is the probability that all of these **Z**guys fail to turn on the variable Y? So, when does `Y keeps sleeping`? First of all, when it doesn't get turned on by the **leak**(![formula](https://render.githubusercontent.com/render/math?math=\lambda_0)=**`P(Y get activated by itself)`**) . So, that's ![formula](https://render.githubusercontent.com/render/math?math=1-\lambda_0) x **`P(none of Z activate Y)`**.
    <img src="https://user-images.githubusercontent.com/31917400/94306201-6e473c80-ff6a-11ea-9091-a4432e1a2154.jpg" />
    
-   - Therefore,... Given that Y = 0, we know that all ![formula](https://render.githubusercontent.com/render/math?math=\lambda_i) from ![formula](https://render.githubusercontent.com/render/math?math=Z_i) are 0; so that blocks the trail of influence from ![formula](https://render.githubusercontent.com/render/math?math=X_1toX_2)...
+   - Therefore,... Given that Y = 0, we know that all ![formula](https://render.githubusercontent.com/render/math?math=\lambda_i) from ![formula](https://render.githubusercontent.com/render/math?math=Z_i) are 0; so that blocks the trail of influence from ![formula](https://render.githubusercontent.com/render/math?math=X_1toX_2)...so..all features are independent!
    
 <> **Noisy-AND (Noisy_Max) cpd** can capture such interaction.
    - This is called independence of causal influence because it assumes that you have a bunch of causes and each of them acts independently to affect the truth of that child variable. so, there's no interactions between the different causes.
