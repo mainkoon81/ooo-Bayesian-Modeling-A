@@ -130,7 +130,7 @@ No more Tabular representations for CPD!!!!
 ## `This is about the story of crazy V-Structures` 
 ... of Conditional Probability Distribution 
 
-### a) Deterministic Structured CPD
+### a) Basic Structured CPD
 <> __Context-Specific Independent structure:__ The independent statement b/w two variable(X,Y) only holds for particular values of the conditioning variable c for example. So the dependence only happening in a certain context. 
 <img src="https://user-images.githubusercontent.com/31917400/94292256-9e83e080-ff54-11ea-9fdf-779e92149b34.jpg" />
 
