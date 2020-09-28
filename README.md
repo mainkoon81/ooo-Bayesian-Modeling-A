@@ -174,6 +174,8 @@ What if there are **so many factors** that contribute something to the probabili
  - the final `Z` adds up all of these different influences + **an additional bias term `W0`**. 
  - Then we turn this ultimately into the probability of the **target variable Y** by passing this continuous quantity `Z` through a Sigmoid Function(squelching func). 
    - Since **e to the power of `Z`** is a positive number, this gives us a number that is always in the interval of {0,1}.
+   <img src="https://user-images.githubusercontent.com/31917400/94438687-5b657f80-0197-11eb-9218-4423552aac1d.jpg" />
+
 
 ### e) Continuous Structured CPD
 <img src="https://user-images.githubusercontent.com/31917400/52906319-31b94800-3241-11e9-80b0-3e7b2fd646bf.jpg" />
