@@ -191,6 +191,8 @@ What if there are **so many factors** that contribute something to the probabili
 ## A5> Decision Theory: 
 Decision making under uncertainty
 
+### a) Maximum Expected Utility
+
 
 
 
