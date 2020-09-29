@@ -72,6 +72,7 @@ BN can be used for a wide range of tasks including prediction, anomaly detection
    <img src="https://user-images.githubusercontent.com/31917400/93879530-c0226500-fcd3-11ea-8023-725535b46742.jpg" />
 
  - ### (4) multiple parameters..latent variables?...(multiple priors)
+   This is also important. Using this V-Structure, we can make any features interlaced with each other!
    <img src="https://user-images.githubusercontent.com/31917400/93886109-eef10900-fcdc-11ea-8296-a25d93b7ad21.jpg" />
 
 ### > Typical Conditional Independence: the `SPLIT`
