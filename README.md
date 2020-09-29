@@ -211,6 +211,13 @@ Decision making under uncertainty
 Let's see how to operationalize Bayes-Net to answer **conditional probability** queries! 
 <img src="https://user-images.githubusercontent.com/31917400/94588251-993bd400-027b-11eb-890e-3698673d8c3f.jpg" />
 
+ - 1.Variable Elimination
+ - 2.Message passing over graph
+   - Belief Propagation
+   - Variational Inference
+ - 3.Random Sampling
+
+
 
 
 <img src="https://user-images.githubusercontent.com/31917400/67621845-b1090d80-f80b-11e9-8081-dcd66dd9a27e.jpg" />
