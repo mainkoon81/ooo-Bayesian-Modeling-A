@@ -208,7 +208,8 @@ Decision making under uncertainty
 
 ---------------------------------------------------------------------------------------------------------
 # (B) Inference
-Let's see how to operationalize Bayes-Net!
+Let's see how to operationalize Bayes-Net to answer **conditional probability** queries! 
+<img src="https://user-images.githubusercontent.com/31917400/94588251-993bd400-027b-11eb-890e-3698673d8c3f.jpg" />
 
 
 
