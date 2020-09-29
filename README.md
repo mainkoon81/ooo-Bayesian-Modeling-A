@@ -194,10 +194,11 @@ Decision making under uncertainty
 ### a) Maximum Expected Utility
 <img src="https://user-images.githubusercontent.com/31917400/94546911-6fb48580-0246-11eb-91d8-b067a983177c.jpg" />
 
- - Expected Utility
+ - Expected Utility: `E[U]`
    <img src="https://user-images.githubusercontent.com/31917400/94476796-da26e080-01c8-11eb-963a-c5e2038951c4.jpg" />
 
-
+ - Maximum `E[U]` Decision Rule
+   <img src=" " />
 
 
 
