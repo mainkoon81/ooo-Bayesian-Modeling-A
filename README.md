@@ -208,6 +208,10 @@ Decision making under uncertainty
 
 ---------------------------------------------------------------------------------------------------------
 # (B) Inference
+Let's see how to operationalize Bayes-Net!
+
+
+
 <img src="https://user-images.githubusercontent.com/31917400/67621845-b1090d80-f80b-11e9-8081-dcd66dd9a27e.jpg" />
 
  - Q1. How to answer questions such as "Given some inputs, what are the outputs?" The answer is going to be a complete `joint` distribution over the **query variables**...we call it `posterior`. This is what we are after. 
