@@ -68,6 +68,7 @@ BN can be used for a wide range of tasks including prediction, anomaly detection
 
  - ### (3) between results ? **`P( likelihood_A | likelihood_B )`**
    If we Know the **prior**, its **likelihoods** are independent because of the `conditional independence`... so? 
+   - If we see the prior is the latent/hidden variable, then dealing with the features at hand becomes super simple since they are independent each other! 
    <img src="https://user-images.githubusercontent.com/31917400/93879530-c0226500-fcd3-11ea-8023-725535b46742.jpg" />
 
  - ### (4) multiple parameters..latent variables?...(multiple priors)
