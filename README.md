@@ -217,7 +217,7 @@ Decision making under uncertainty
    <img src="https://user-images.githubusercontent.com/31917400/67622039-e0207e80-f80d-11e9-98c9-a121ac5855b4.jpg" />
 
 -------------------------------------------------------------------------------------------------------------------------------------
-> ## Let's see how to operationalize Bayes-Net to answer **conditional probability** queries! 
+> ## Let's see how to operationalize Bayes-Net to answer such **conditional probability** queries! 
 <img src="https://user-images.githubusercontent.com/31917400/94588251-993bd400-027b-11eb-890e-3698673d8c3f.jpg" />
 
  - <1> Using __Variable Elimination__
