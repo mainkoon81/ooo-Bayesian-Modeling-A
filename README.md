@@ -207,7 +207,7 @@ Decision making under uncertainty
 
 
 ---------------------------------------------------------------------------------------------------------
-# (B) Inference
+# (B) Inference for Bays-Net
    <img src="https://user-images.githubusercontent.com/31917400/67621845-b1090d80-f80b-11e9-8081-dcd66dd9a27e.jpg" />
    
  - Q1. How to answer questions such as "Given some inputs, what are the outputs?" The answer is going to be a complete `joint` distribution over the **query variables**...we call it `posterior`. This is what we are after. 
@@ -216,6 +216,7 @@ Decision making under uncertainty
    - If Mary has called to report(it's true) that "Hey! the alarm is going off!!!"(don't know if it's true or not), we want to know if there has been a burglary. 
    <img src="https://user-images.githubusercontent.com/31917400/67622039-e0207e80-f80d-11e9-98c9-a121ac5855b4.jpg" />
 
+?????????????????????????????????????????????????????????????????????????????????
 -------------------------------------------------------------------------------------------------------------------------------------
 > ## Let's see how to operationalize Bayes-Net to answer such **conditional probability** queries! 
 <img src="https://user-images.githubusercontent.com/31917400/94588251-993bd400-027b-11eb-890e-3698673d8c3f.jpg" />
@@ -231,6 +232,7 @@ Decision making under uncertainty
 
 
 
+### Variable Elimination
 
 
 
@@ -274,6 +276,21 @@ Go through all possibilities, add them up and come up with an answer.
 
  - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
  <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## > Inference_02: Approximation Method by means of "Sampling"
 To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments?
