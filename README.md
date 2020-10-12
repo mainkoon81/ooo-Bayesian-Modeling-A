@@ -203,7 +203,10 @@ Decision making under uncertainty
    <img src=" " />
 
 
-
+ - T.B.D
+ 
+ 
+ 
 
 
 ---------------------------------------------------------------------------------------------------------
@@ -233,7 +236,8 @@ Decision making under uncertainty
 
 
 ### Variable Elimination
-
+pushing terms through the summation..
+<img src="https://user-images.githubusercontent.com/31917400/95765773-39e1b900-0caa-11eb-956f-b824582dbbda.jpg" />
 
 
 
