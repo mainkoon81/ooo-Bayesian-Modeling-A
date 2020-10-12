@@ -232,7 +232,7 @@ Decision making under uncertainty
    - Variational Inference
  - <3> Using __Random Sampling__ 
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## > `Inference_01`: Enumeration and Variable Elimination  
 Let's say...Go through all possibilities, add them up and come up with an answer. 
@@ -268,36 +268,13 @@ pushing terms through the summation..
    <img src="https://user-images.githubusercontent.com/31917400/95770493-6220e600-0cb1-11eb-8eb8-a619f1cd0a31.jpg" />
 
  - Graph-based perspective
+   : TBD
 
-
- - How to find the elimination ordering?
- 
-
-
-
-
-
-
-
-
-
-
-
-
+ - Elimination ordering? Which variable should be removed first?
+   : TBD 
 
 ## > `Inference_02`: MAP
-.....
-
-
-
-
-
-
-
-
-
-
-
+: TBD
 
 
 ## > `Inference_03`: Approximation Method by means of "Sampling"
