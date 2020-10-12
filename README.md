@@ -264,8 +264,8 @@ Let's say...Go through all possibilities, add them up and come up with an answer
 
 ### Variable Elimination
 pushing terms through the summation..
- - First Factor product -> Then...Marginalization
-<img src="https://user-images.githubusercontent.com/31917400/95770493-6220e600-0cb1-11eb-8eb8-a619f1cd0a31.jpg" />
+ - Find a Factor(joints) product -> Then...Marginalize
+   <img src="https://user-images.githubusercontent.com/31917400/95770493-6220e600-0cb1-11eb-8eb8-a619f1cd0a31.jpg" />
 
  - Graph-based perspective
 
