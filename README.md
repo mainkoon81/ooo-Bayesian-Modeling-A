@@ -256,10 +256,10 @@ Let's say...Go through all possibilities, add them up and come up with an answer
  - We finish to enumerate over all four hidden variable possibilities in the end, then it's saying `P(burglary alarm being true | John, Mary)` is 0.284.   
 
 > ### To speed up, We can eliminate some variables...
- - `Make a joint`:
+ - ### Step 1> `Make a joint`
    <img src="https://user-images.githubusercontent.com/31917400/67634221-f59ab480-f8b0-11e9-8dc4-1e9a03ddbc90.jpg" />
 
- - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
+ - ### Step 2> `Marginalize the joint`...keep making the "single node" until it gives an answer:
    <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
 ### Variable Elimination
