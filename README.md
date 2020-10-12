@@ -231,8 +231,8 @@ Decision making under uncertainty
    - Max-product-Belief Propagation
    - Variational Inference
  - <3> Using __Random Sampling__ 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## > `Inference_01`: Enumeration and Variable Elimination  
 Let's say...Go through all possibilities, add them up and come up with an answer. 
