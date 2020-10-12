@@ -234,6 +234,34 @@ Decision making under uncertainty
 
 
 
+## > `Inference_01`: Enumeration and Variable Elimination  
+Let's say...Go through all possibilities, add them up and come up with an answer. 
+ - State the problem and ask the question: "If **Mary** and **John** has called to report that the alarm is going off, we want to know if there has been a **burglary**." 
+ <img src="https://user-images.githubusercontent.com/31917400/67623036-735eb180-f818-11e9-9ad2-cbbcc6141961.jpg" />
+
+ - First, take a conditional prob(posterior) and rewrite it as unconditional prob(a bunch of **`jointsss`**).
+   <img src="https://user-images.githubusercontent.com/31917400/67623078-0992d780-f819-11e9-88b7-c4b0bae56255.jpg" />
+
+ - Next, enumerate all the atomic probabilities and calculate the sum of products.
+   - On the numerator, this joint can be determined by enumerating all hidden variable values..(Making the Sum over these hidden variables) 
+     <img src="https://user-images.githubusercontent.com/31917400/67623248-dcdfbf80-f81a-11e9-87fe-b187545b1c73.jpg" />
+ 
+   - To obtain the values of these atomic events, rewrite the eqation in a form that corresponds to the conditional prob-table of this Bayes-net. Rewrite w.r.t **parents** of each of the nodes in the network, so the form of the unfolded equation heavily depends on the graphic!  
+     <img src="https://user-images.githubusercontent.com/31917400/67623317-8fb01d80-f81b-11e9-9653-07cc7f9cafdd.jpg" />
+   
+   - The equation can be understood as a function of hidden variables and the answer can be the **sum of all these function outputs** for all values of the hidden variables. So it's a sum of such terms and each of which is a product of "factors" in the previous equation.  
+     <img src="https://user-images.githubusercontent.com/31917400/67623855-0cde9100-f822-11e9-8f82-bb14e7c04135.jpg" />
+
+ - Do the same thing with the denominator. 
+ - We finish to enumerate over all four hidden variable possibilities in the end, then it's saying `P(burglary alarm being true | John, Mary)` is 0.284.   
+
+> ### To speed up, We can eliminate some variables...
+ - `Make a joint`:
+   <img src="https://user-images.githubusercontent.com/31917400/67634221-f59ab480-f8b0-11e9-8dc4-1e9a03ddbc90.jpg" />
+
+ - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
+   <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
+
 ### Variable Elimination
 pushing terms through the summation..
  - First Factor product -> Then...Marginalization
@@ -254,33 +282,8 @@ pushing terms through the summation..
 
 
 
-## > Inference_01: Enumeration Method
-Go through all possibilities, add them up and come up with an answer. 
- - State the problem and ask the question: "If **Mary** and **John** has called to report that the alarm is going off, we want to know if there has been a **burglary**." 
- <img src="https://user-images.githubusercontent.com/31917400/67623036-735eb180-f818-11e9-9ad2-cbbcc6141961.jpg" />
 
- - First, take a conditional prob(posterior) and rewrite it as unconditional prob(a bunch of **`jointsss`**).
- <img src="https://user-images.githubusercontent.com/31917400/67623078-0992d780-f819-11e9-88b7-c4b0bae56255.jpg" />
 
- - Next, enumerate all the atomic probabilities and calculate the sum of products.
-   - On the numerator, this joint can be determined by enumerating all hidden variable values..(Making the Sum over these hidden variables) 
-   <img src="https://user-images.githubusercontent.com/31917400/67623248-dcdfbf80-f81a-11e9-87fe-b187545b1c73.jpg" />
- 
-   - To obtain the values of these atomic events, rewrite the eqation in a form that corresponds to the conditional prob-table of this Bayes-net. Rewrite w.r.t **parents** of each of the nodes in the network, so the form of the unfolded equation heavily depends on the graphic!  
-   <img src="https://user-images.githubusercontent.com/31917400/67623317-8fb01d80-f81b-11e9-9653-07cc7f9cafdd.jpg" />
-   
-   - The equation can be understood as a function of hidden variables and the answer can be the **sum of all these function outputs** for all values of the hidden variables. So it's a sum of such terms and each of which is a product of "factors" in the previous equation.  
-   <img src="https://user-images.githubusercontent.com/31917400/67623855-0cde9100-f822-11e9-8f82-bb14e7c04135.jpg" />
-
- - Do the same thing with the denominator. 
- - We finish to enumerate over all four hidden variable possibilities in the end, then it's saying `P(burglary alarm being true | John, Mary)` is 0.284.   
-
-> ### To speed up, We can eliminate some variables...
- - `Make a joint`:
- <img src="https://user-images.githubusercontent.com/31917400/67634221-f59ab480-f8b0-11e9-8dc4-1e9a03ddbc90.jpg" />
-
- - `Marginalize the joint` then make a joint, marginalize the joint...keep making the "single node" until it gives an answer:
- <img src="https://user-images.githubusercontent.com/31917400/67634554-8e333380-f8b5-11e9-9007-af2d5aca5ce5.jpg" />
 
 
 
