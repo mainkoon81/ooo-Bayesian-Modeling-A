@@ -237,7 +237,7 @@ Decision making under uncertainty
 
 ### Variable Elimination
 pushing terms through the summation..
-<img src="https://user-images.githubusercontent.com/31917400/95765773-39e1b900-0caa-11eb-956f-b824582dbbda.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/95770493-6220e600-0cb1-11eb-8eb8-a619f1cd0a31.jpg" />
 
 
 
