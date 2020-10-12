@@ -285,6 +285,8 @@ pushing terms through the summation..
 
 
 
+## > `Inference_02`: MAP
+.....
 
 
 
@@ -298,9 +300,7 @@ pushing terms through the summation..
 
 
 
-
-
-## > Inference_02: Approximation Method by means of "Sampling"
+## > `Inference_03`: Approximation Method by means of "Sampling"
 To deal with `Joint` (or to estimate `Joint`), we actually do pseudo-experiments?
 
 (+) Sampling has an advantage over inference 
