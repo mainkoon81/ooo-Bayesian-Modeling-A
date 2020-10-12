@@ -220,14 +220,28 @@ Decision making under uncertainty
 > ## Let's see how to operationalize Bayes-Net to answer such **conditional probability** queries! 
 <img src="https://user-images.githubusercontent.com/31917400/94588251-993bd400-027b-11eb-890e-3698673d8c3f.jpg" />
 
- - <1> Using __Variable Elimination__
- - <2> Using __Message passing over graph__
-   - Belief Propagation
-   - Variational Inference
- - <3> Using __Random Sampling__
+[Note] MAP Inference
+<img src="https://user-images.githubusercontent.com/31917400/95752402-e1a1bb80-0c97-11eb-8997-56f09080494e.jpg" /> It claimes a single coherent assignment of highest probability, which is not the same as maximizing individual maginal probabilities.  
 
-## MAP Inference
-<img src="https://user-images.githubusercontent.com/31917400/95752402-e1a1bb80-0c97-11eb-8997-56f09080494e.jpg" />
+ - <1> Using __Variable Elimination__ with MAP
+ - <2> Using __Message passing over graph__ with MAP
+   - Max-product-Belief Propagation
+   - Variational Inference
+ - <3> Using __Random Sampling__ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
