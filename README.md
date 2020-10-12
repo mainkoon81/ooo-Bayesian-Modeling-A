@@ -354,6 +354,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ---------------------------------------------------------------------------------------------------------
 # (C) Learning Bayes-Net from data
+<img src="https://user-images.githubusercontent.com/31917400/95786831-411bbd80-0cd0-11eb-825d-e5e978f038cd.jpg" />
 
 
 
