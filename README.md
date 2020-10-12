@@ -226,6 +226,8 @@ Decision making under uncertainty
    - Variational Inference
  - <3> Using __Random Sampling__
 
+## MAP Inference
+<img src="https://user-images.githubusercontent.com/31917400/95752402-e1a1bb80-0c97-11eb-8997-56f09080494e.jpg" />
 
 
 
