@@ -370,10 +370,10 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
      - Your model parameter can overfit to random noise in training data
      - Use regularization....
 
-
-
-
-
+### Why?
+ - we can exploit correlations between several predicted variables.
+ - we can incorporate prior knowledge into our model.
+ - we can perform multiple tasks, using a single model. This can be a efficient framework of knowledge discovery
 
 
 
