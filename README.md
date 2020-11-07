@@ -361,12 +361,12 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
    - directionality of edges ?
    - independencies ?
    - presence and location of hidden variables ?
-     **Avoid structure overfitting:**
+     - **Avoid structure overfitting:**
      - the more complex it is, the higher training-likelihood it will have
      - Penalize the structure complexity....
  - ### Prediction on new instance:
    - model parameter ?
-     **Avoid parameter overfitting:** 
+     - **Avoid parameter overfitting:** 
      - Your model parameter can overfit to random noise in training data
      - Use regularization....
 
