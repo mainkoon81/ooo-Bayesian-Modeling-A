@@ -356,7 +356,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 # (C) Learning Bayes-Net from data
 <img src="https://user-images.githubusercontent.com/31917400/98442987-57b30a00-2100-11eb-8e59-c1379be346ab.jpg" />
 
-## 00. The Goal: Knowledge discovery
+## 00 > The Goal: Knowledge discovery
  - ### Structure:
    - directionality of edges ?
    - independencies ?
@@ -377,7 +377,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
  - we can perform multiple tasks, using a single model. This can be a efficient framework of knowledge discovery
 
 
-## 01. Parameter Estimation 
+## 01 > Parameter Estimation 
 
 
 
