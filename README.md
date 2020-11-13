@@ -357,17 +357,15 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 <img src="https://user-images.githubusercontent.com/31917400/98442987-57b30a00-2100-11eb-8e59-c1379be346ab.jpg" />
 
 ## 00 > The Goal: Knowledge discovery
- - ### Structure:
-   - directionality of edges ?
-   - independencies ?
-   - presence and location of hidden variables ?
-     - **Avoid structure overfitting:**
-     - the more complex it is, the higher training-likelihood it will have
-     - Penalize the structure complexity....
- - ### Prediction on new instance:
-   - model parameter ?
-     - **Avoid parameter overfitting:** 
-     - Your model parameter can overfit to random noise in training data
+ - ### In Structure:
+   - Check_1. directionality of edges ?
+   - Check_2. independencies ?
+   - Check_3. presence and location of hidden variables ?
+   - Check_4. structure overfitting ?
+     - How to penalize the structure complexity?....the more complex it is, the higher training-likelihood it will have
+ - ### In Prediction on new instance:
+   - Check_1. model parameter overfitting ?
+     - the estimated model parameter can overfit to random noise in training data
      - Use regularization....
 
 ### Why Bayes-Net for Knowledge discovery?
