@@ -379,10 +379,11 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 ### Approach 01. MLE: 
 <img src="https://user-images.githubusercontent.com/31917400/99130277-c9f78300-2607-11eb-86d1-93deb97eab0f.jpg" />
 
+.......
 
 
-
-### Approach 02. 
+### Approach 02. Bayesian Estimation
+MLE is flawed...
 
 
 
