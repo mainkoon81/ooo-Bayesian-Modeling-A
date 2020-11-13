@@ -372,7 +372,8 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ### Why Bayes-Net for Knowledge discovery?
  - we can exploit correlations between several predicted variables.
- - we can incorporate prior knowledge into our model.
+ - In the decision analysis framework, traditional point estimation approaches have often produced faulty risk assessment results as it ignores the associated uncertainty. One can see that the key lies in the manifestation of uncertainty range (confidence interval) and this requires us to obtain a full parameter distribution. Bayesian method allows us to estimate a full parameter distribution, using the joint distribution of the assumed model parameters(prior) and the given observations(likelihood). 
+ - Incorporate prior knowledge into our model..i.e...Bayesian method derives an insight based on the synthesis of the assumed knowledge in the parameters(prior) and the new information from the observed data(likelihood)...combining both observations and experts' knowledge on the most likely parameter values 
  - we can perform multiple tasks, using a single model. This can be a efficient framework of knowledge discovery
 
 
