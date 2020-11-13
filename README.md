@@ -377,7 +377,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ## 01 > Parameter Estimation 
 ### Approach 01. MLE: 
-<img src="https://user-images.githubusercontent.com/31917400/99115495-6743be80-25ea-11eb-9259-c9903e14b0f2.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/99116068-53e52300-25eb-11eb-9ac6-c74691ef8e76.jpg" />
 
 
 
