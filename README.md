@@ -364,8 +364,8 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
    - Check_4. structure overfitting ?
      - How to penalize the structure complexity?....the more complex it is, the higher training-likelihood it will have
  - ### In Prediction on new instance:
-   - Check_1. model parameter overfitting ?
-     - the estimated model parameter can overfit to random noise in training data
+   - Check_1. Estimated model parameter overfitting ?
+     - it can overfit to random noise in training data
      - Use regularization....
 
 ### Why Bayes-Net for Knowledge discovery?
@@ -377,7 +377,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 
 ## 01 > Parameter Estimation 
 ### Approach 01. MLE: 
-<img src="https://user-images.githubusercontent.com/31917400/99116068-53e52300-25eb-11eb-9ac6-c74691ef8e76.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/99130277-c9f78300-2607-11eb-86d1-93deb97eab0f.jpg" />
 
 
 
