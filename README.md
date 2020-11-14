@@ -374,7 +374,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
  - Incorporate prior knowledge into our model..i.e...Bayesian method derives an insight based on the synthesis of the assumed knowledge in the parameters(prior) and the new information from the observed data(likelihood)...combining both observations and experts' knowledge on the most likely parameter values 
  - we can perform multiple tasks, using a single model. This can be a efficient framework of knowledge discovery
 
-
+----------------------------------------------------------------------------------------------------
 ## 01 > Parameter Learning 
 ### Approach 01. MLE: 
 `MLE` tries to estimate the best parameter while optimizing the likelihood of the data, given the parameters.
@@ -413,7 +413,8 @@ T.B.D
 
 In Bayes-Net, if the model has independent priors, then its posteriors are also independent.
 
-## 02 > Structure Learning
+----------------------------------------------------------------------------------------------------
+## 02 > Structure Learning (Model Selection?)
  - Case_01: Answering specific queries by taking data and learning the most significant dependencies...but we don't know the structure.
  - Case_02: Discovering the interrelationships between the variables so that we understand the our whole network better...but we don't know the structure.
  - What's the Problem?
@@ -431,11 +432,17 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
 ### 1. Likelihood Score
 Find the (model, `θ`) pair that maximize the likelihood?
  - It computes the log-likelihood of data relative to a certain structure, using MLE parameters(already optimized) for the structure.   
- - It is subject to overfitting for sure...
+ - `It is subject to overfitting problem for sure...`
+ - which structure shows bigger score?
    <img src="https://user-images.githubusercontent.com/31917400/99153519-ef849b00-26a0-11eb-9194-53c4b0359ef7.jpg" />
 
+### 2. BIC, Asymptotic Consistency
 
 
+### 3. Bayesian Score
+
+
+----------------------------------------------------------------------------------------------------
 ## 03 > Learning with incomplete data
 
 
