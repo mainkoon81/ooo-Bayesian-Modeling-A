@@ -396,8 +396,8 @@ T.B.D
 > Bayesian Estimation in PGM offers some better properties. 
  - First, `θ` becomes a random variable. In Bayesian framework, **anything about we are uncertain** can be viewed as a **random variable** over which we have a distribution that is updated over time as data is obtained. This is the heart of the Bayesian formalism.  
    - In MLE, `θ` is fixed (or given), and all tosses(data points) are independent. 
-   - In BE, `θ` is unknown, so we don't assume all tosses are independent...they are marginally dependent because of their unknown mommy (without being given `θ`) 
-   - This gives us a joint probablistic model (of all data points, and `θ`..evenly). 
+   - In BE, `θ` is unknown, so we cannot assume all tosses are independent...they are marginally **dependent** because of their unknown mommy (without being given `θ`) 
+   - This gives us a **joint probablistic model** (of all data points, and `θ`..evenly). 
    <img src="https://user-images.githubusercontent.com/31917400/99147104-f5b15200-2675-11eb-9686-a31f4c7e61d9.jpg" />
 
 
