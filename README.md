@@ -408,7 +408,10 @@ T.B.D
  - Case 01.     
    <img src="https://user-images.githubusercontent.com/31917400/99149850-737e5900-2688-11eb-800b-d7af94bcfaec.jpg" />
 
+ - Case 02.
+   <img src="https://user-images.githubusercontent.com/31917400/99150158-81cd7480-268a-11eb-8338-8344f720a1e9.jpg" />
 
+In Bayes-Net, if the model has independent priors, then its posteriors are also independent.
 
 
 
