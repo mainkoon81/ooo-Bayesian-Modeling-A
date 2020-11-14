@@ -460,9 +460,16 @@ What's the occasion?
  - Latent variable often offers an interesting characterization of structure in the data...such as clusters..
    <img src="https://user-images.githubusercontent.com/31917400/99156871-73984c00-26bc-11eb-86ca-95836423af47.jpg" />
 
+### With missing values
+H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data are missing, you have no idea how to proceed... 
+ - __Modeling missing data mechanism:__
+   <img src="https://user-images.githubusercontent.com/31917400/99159390-b6b1e980-26d3-11eb-9c0e-72c0e0bb714a.jpg" />
 
+   - Scenarios 01. Random missing value
+   <img src="https://user-images.githubusercontent.com/31917400/99159551-2e344880-26d5-11eb-89c3-c30fb9796617.jpg" />
 
-
+     - a variable is sometimes observed by chance
+     - the observed target value `Y` depends on `X` and on `O`, but there is no interaction between `X` and on `O` (D-Separation) 
 
 
 
