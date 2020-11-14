@@ -424,26 +424,40 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
    - We can define a scoring function that evaluates how well the network structure matches your data. 
    <img src="https://user-images.githubusercontent.com/31917400/99152228-5d789480-2698-11eb-8694-e7d1a69547df.jpg" />
 
-> __Scoring Functions__
+### Scoring Criteria
  - 1. Likelihood Score
+   - Find the (model, `θ`) pair that maximize the likelihood?
+     - It computes the log-likelihood of data relative to a certain structure, using MLE parameters(already optimized) for the structure.   
+     - `It is subject to overfitting problem for sure...`
+     - which structure shows bigger score?
+       <img src="https://user-images.githubusercontent.com/31917400/99153519-ef849b00-26a0-11eb-9194-53c4b0359ef7.jpg" />
  - 2. BIC, Asymptotic Consistency
+ 
  - 3. Bayesian Score
 
-### 1. Likelihood Score
-Find the (model, `θ`) pair that maximize the likelihood?
- - It computes the log-likelihood of data relative to a certain structure, using MLE parameters(already optimized) for the structure.   
- - `It is subject to overfitting problem for sure...`
- - which structure shows bigger score?
-   <img src="https://user-images.githubusercontent.com/31917400/99153519-ef849b00-26a0-11eb-9194-53c4b0359ef7.jpg" />
 
-### 2. BIC, Asymptotic Consistency
+### Searching Structures with Optimization (**Exploit Decomposability**)
+> Input: 
+  - your data
+  - scoring criteria selection
+  - prior information
+  - a set of possible structures
+> Output: 
+  - a structure that maximizes the score
 
 
-### 3. Bayesian Score
+
 
 
 ----------------------------------------------------------------------------------------------------
 ## 03 > Learning with incomplete data
+What's the occasion?
+ - hidden variables? Unobservable?
+ - missing values?
+
+### With Latent variables and Model Sparcity
+Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
+
 
 
 
