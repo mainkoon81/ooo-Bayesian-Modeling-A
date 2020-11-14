@@ -429,8 +429,10 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
  - 3. Bayesian Score
 
 ### 1. Likelihood Score
-
-
+Find the (model, `θ`) pair that maximize the likelihood?
+ - It computes the log-likelihood of data relative to a certain structure, using MLE parameters(already optimized) for the structure.   
+ - It is subject to overfitting for sure...
+   <img src="https://user-images.githubusercontent.com/31917400/99153519-ef849b00-26a0-11eb-9194-53c4b0359ef7.jpg" />
 
 
 
