@@ -400,12 +400,13 @@ T.B.D
    - This gives us a **joint probablistic model** (of all data points, and `θ`..evenly). 
    <img src="https://user-images.githubusercontent.com/31917400/99147104-f5b15200-2675-11eb-9686-a31f4c7e61d9.jpg" />
 
-> Bayesian prediction on new instances
- - For example, let's say we have a Multinomial Data distribution, thus it comes with a Dirichlet prior distribution.
-   <img src="https://user-images.githubusercontent.com/31917400/99147890-4cba2580-267c-11eb-8c37-fa84c4440885.jpg" />
+   - what about Bayesian prediction on new instances ?
+     - For example, let's say we have a Multinomial Data distribution, thus it comes with a Dirichlet prior distribution.
+     <img src="https://user-images.githubusercontent.com/31917400/99147890-4cba2580-267c-11eb-8c37-fa84c4440885.jpg" />
 
-
-
+> Bayesian Estimation in Bayes-Net
+ - Case 01.     
+   <img src="https://user-images.githubusercontent.com/31917400/99149850-737e5900-2688-11eb-800b-d7af94bcfaec.jpg" />
 
 
 
