@@ -456,8 +456,9 @@ What's the occasion?
  - missing values?
 
 ### With Latent variables and Model Sparcity
-Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
-
+ - Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
+ - Latent variable often offers an interesting characterization of structure in the data...such as clusters..
+   <img src="https://user-images.githubusercontent.com/31917400/99156871-73984c00-26bc-11eb-86ca-95836423af47.jpg" />
 
 
 
