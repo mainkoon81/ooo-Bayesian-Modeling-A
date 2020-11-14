@@ -416,16 +416,19 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
 ## 02 > Structure Learning
  - Case_01: Answering specific queries by taking data and learning the most significant dependencies...but we don't know the structure.
  - Case_02: Discovering the interrelationships between the variables so that we understand the our whole network better...but we don't know the structure.
- 
-Problem
- <img src="https://user-images.githubusercontent.com/31917400/99152105-aaa83680-2697-11eb-82d8-3f07bb782913.jpg" />
+ - What's the Problem?
+   <img src="https://user-images.githubusercontent.com/31917400/99152105-aaa83680-2697-11eb-82d8-3f07bb782913.jpg" />
 
-Solution: Scroing based Learning 
- - We can define a scoring function that evaluates how well the network structure matches your data. 
- <img src="https://user-images.githubusercontent.com/31917400/99152228-5d789480-2698-11eb-8694-e7d1a69547df.jpg" />
+ - Solution: **Scroing based Learning** (Optimization?)
+   - We can define a scoring function that evaluates how well the network structure matches your data. 
+   <img src="https://user-images.githubusercontent.com/31917400/99152228-5d789480-2698-11eb-8694-e7d1a69547df.jpg" />
 
+> __Scoring Functions__
+ - 1. Likelihood Score
+ - 2. BIC, Asymptotic Consistency
+ - 3. Bayesian Score
 
-
+### 1. Likelihood Score
 
 
 
