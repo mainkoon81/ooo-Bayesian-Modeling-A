@@ -375,7 +375,7 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
  - we can perform multiple tasks, using a single model. This can be a efficient framework of knowledge discovery
 
 
-## 01 > Parameter Estimation 
+## 01 > Parameter Learning 
 ### Approach 01. MLE: 
 `MLE` tries to estimate the best parameter while optimizing the likelihood of the data, given the parameters.
 <img src="https://user-images.githubusercontent.com/31917400/99130277-c9f78300-2607-11eb-86d1-93deb97eab0f.jpg" />
@@ -413,6 +413,16 @@ T.B.D
 
 In Bayes-Net, if the model has independent priors, then its posteriors are also independent.
 
+## 02 > Structure Learning
+ - Case_01: Answering specific queries by taking data and learning the most significant dependencies...but we don't know the structure.
+ - Case_02: Discovering the interrelationships between the variables so that we understand the our whole network better...but we don't know the structure.
+ 
+Problem
+ <img src="https://user-images.githubusercontent.com/31917400/99152105-aaa83680-2697-11eb-82d8-3f07bb782913.jpg" />
+
+Solution: Scroing based Learning 
+ - We can define a scoring function that evaluates how well the network structure matches your data. 
+ <img src="https://user-images.githubusercontent.com/31917400/99152228-5d789480-2698-11eb-8694-e7d1a69547df.jpg" />
 
 
 
@@ -421,8 +431,7 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
 
 
 
-
-
+## 03 > Learning with incomplete data
 
 
 
