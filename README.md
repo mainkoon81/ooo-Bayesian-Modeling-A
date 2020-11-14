@@ -380,17 +380,25 @@ When we have multiple parameters `P(θ,ϕ|y) ∝ g(θ,ϕ)`, first we plug in the
 `MLE` tries to estimate the best parameter while optimizing the likelihood of the data, given the parameters.
 <img src="https://user-images.githubusercontent.com/31917400/99130277-c9f78300-2607-11eb-86d1-93deb97eab0f.jpg" />
 
-.......
+T.B.D
 
 
 ### Approach 02. Bayesian Estimation
-`MLE` is flawed...`BE` offers some better properties. 
+`MLE` is flawed...
+> Limitations of **MLE**
+ - [Case]: "Toss a coin and H came 7 times out of 10 tosses. Then P(H)=0.7" which is the `θ`.
+   - New context:
+     - **A** and **B** fight a duel. **A** won 7 out of 10 matches. Then P(A)=0.7 which is the `θ`.
+   - Larger samples:
+     - Toss a coin and H came 70,000 times out of 100,000 tosses. Then P(H)=0.7 which is the `θ`.
+ - MLE has absolutely no ability to distinguish between these three scenarios above.  
 
-
-
-
-
-
+> Bayesian Estimation in PGM offers some better properties. 
+ - First, `θ` becomes a random variable. In Bayesian framework, **anything about we are uncertain** can be viewed as a **random variable** over which we have a distribution that is updated over time as data is obtained. This is the heart of the Bayesian formalism.  
+   - In MLE, `θ` is fixed (or given), and all tosses(data points) are independent. 
+   - In BE, `θ` is unknown, so we don't assume all tosses are independent...they are marginally dependent because of their unknown mommy (without being given `θ`) 
+   - This gives us a joint probablistic model (of all data points, and `θ`..evenly). 
+   <img src="https://user-images.githubusercontent.com/31917400/99147104-f5b15200-2675-11eb-9686-a31f4c7e61d9.jpg" />
 
 
 
