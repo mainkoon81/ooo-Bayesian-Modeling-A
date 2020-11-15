@@ -479,7 +479,7 @@ H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data a
      - By comparison, in this case, the true value of the `X` variable affects `O`(observed or not)
 
  - __In the case of **missing at random** (MAR) we can ignore the `missing data mechanism` and focus only on the **likelihood that we get to observe**.__ 
-   - The joint over (x, y, o) have the following characteristics that the observation variables `O` are independent of the missing `X`'s. This means if you tell me the `Y` values that you observe, then the fact that something may or may not have been observed doesn't carry any additional information. 
+   - The joint over (x, y, o) have the following characteristics that the observation variables `O` are independent of the missing `X`'s. This means if you tell me the `Y` values that you observe, then the fact that some `X` values may or may not have been observed doesn't carry any additional information. 
      <img src="https://user-images.githubusercontent.com/31917400/99183382-315e2180-2733-11eb-9268-4f2b9a757b94.jpg" /> 
 
 
