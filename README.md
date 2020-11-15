@@ -512,8 +512,9 @@ In the context of missing data, the likelihood function looks like a nasty, comp
       <img src="https://user-images.githubusercontent.com/31917400/99192093-e232e380-2768-11eb-95bb-e85be1e0069c.jpg" /> 
       <img src="https://user-images.githubusercontent.com/31917400/99192675-fe844f80-276b-11eb-9046-173a8635e1ad.jpg" /> 
 
-
-
+ - The convergence of the likelihood function is not the same as convergence of the parameters and so we have to decide which one we actually care about.
+ - EM achieves only a **local optimum** of the log likelihood function. `Local optima are unavoidable, and increase with the amount of missing data.....`  They decrease with the total amount of data, but not if we hidden variables, at which point you're stuck with them no matter how much data you have.
+ - Perhaps the most common use of the EM algorithm is to the problem of Learning with Latent Variables. These are situations where there is a certain set of variables that we just never get to observe, but they turn out to be important for capturing some important latent structure in the distribution of the data instances that we have. Perhaps the simplest example is in context of clustering where we have some kind of, latent class variable and some set of observed features. And we're trying to, basically segment the instances that we have into categories where, we assume that, for each category there is a similar distribution over the observed features. The features become independent to each other, once we're given the class. Latent variables satisfy MAR, so can use EM. 
 
 
 
