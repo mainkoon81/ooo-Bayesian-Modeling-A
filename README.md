@@ -504,7 +504,11 @@ In the context of missing data, the likelihood function looks like a nasty, comp
   - For improving the rate of convergence of these algorithms, some methods such as **line search** or **conjugate gradient methods** basically are going to get us faster to whatever local optimum we're going to end up at..
   - Need to run inference over each data instance at every iteration..so very costly...
 
-
+- The second strategy is `EM-Algorithm` and that is specifically geared for likelihood function optimization. So it's a special purpose algorithm. The intuition is that if we had the full set of parameters, then computing the probability of the missing data would also be easy in the sense that it can be done using straight probabilistic inference. We have two sets of of things that we need to infer or estimate. One is the parameters, and the other is the missing data. We start out with one set of parameters, use that to estimate the values of the missing data and then use that completion to re-estimate the parameters and so on and so forth until we reach convergence.
+  - First, pick a starting point for parameter value.
+  - Next iterate:
+    - [Step_E]: "complete" the data(soft completion using probability), using current parameters.
+    - [Step_M]: Re-estimate the parameters relative to the previous data completion.
 
 
 
