@@ -486,10 +486,11 @@ Having missing values gives a pain in the ass. H,T,H,?,T,?,?,?,T,H......how to d
 
 
 ## (2) Complexity of likelihood & Multiple Global Optima
-Let's say if our `hidden variable` has two possible outcomes, then our `likelihood function` can have two global maxima. With many hidden variables, there can be an exponential number of global maxima. This can occur with missing data (not only hidden variables) as well.   
-<img src="https://user-images.githubusercontent.com/31917400/99187988-a6405400-2751-11eb-8c5b-b051ba20a6e9.jpg" /> 
+ - Let's say if our `hidden variable` has two possible outcomes, then our `likelihood function` can have two global maxima. With many hidden variables, there can be an exponential number of global maxima. This can occur with missing data (not only hidden variables) as well.   
+   <img src="https://user-images.githubusercontent.com/31917400/99187988-a6405400-2751-11eb-8c5b-b051ba20a6e9.jpg" /> 
 
-
+ - parameters start being correlated with each other....
+   <img src="https://user-images.githubusercontent.com/31917400/99188233-cc1a2880-2752-11eb-88e4-aa1df18e6512.jpg" /> 
 
 
 
