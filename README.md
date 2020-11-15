@@ -462,14 +462,14 @@ What's the occasion?
 
 ### With missing values
 H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data are missing, you have no idea how to proceed... 
- - __Modeling missing data mechanism:__
+ - __Missing data mechanism Model:__
    <img src="https://user-images.githubusercontent.com/31917400/99159390-b6b1e980-26d3-11eb-9c0e-72c0e0bb714a.jpg" />
 
-   - **[Scenarios 01]** Random missing value
+   - **[Model 01]** with Random missing value
      <img src="https://user-images.githubusercontent.com/31917400/99159551-2e344880-26d5-11eb-89c3-c30fb9796617.jpg" />
      - The observed target value `Y` depends on `X` and on `O`, but there is no interaction between `X` and on `O` (D-Separation) 
 
-   - **[Scenarios 02]** Non-Random missing value
+   - **[Model 02]** with Non-Random missing value
      <img src="https://user-images.githubusercontent.com/31917400/99159697-cd0d7480-26d6-11eb-8f03-4d2cd533c72e.jpg" />
      - By comparison, in this case, the true value of the `X` variable affects `O`(observed or not)
 
