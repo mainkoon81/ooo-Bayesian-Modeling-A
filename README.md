@@ -457,18 +457,18 @@ What's the occasion?
 
 The presence of missing values or latent variable raises multiple challenges.
  - (1) Unknown mechanism of missingness
- - (2) Complexity of likelihood 
- - (3) Multiple Global Optima
+ - (2) Complexity of likelihood & Multiple Global Optima
 
 ## (1) Unknown mechanism of missingness
 
 ### With Latent variables and Model Sparcity
+Having a latent variable sometimes gives an advantage.
  - Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
  - Latent variable often offers an interesting characterization of structure in the data...such as clusters..
    <img src="https://user-images.githubusercontent.com/31917400/99156871-73984c00-26bc-11eb-86ca-95836423af47.jpg" />
 
 ### With missing values
-H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data are missing, you have no idea how to proceed... 
+Having missing values gives a pain in the ass. H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data are missing, you have no idea how to proceed... 
  - __Missing data mechanism:__
    <img src="https://user-images.githubusercontent.com/31917400/99159390-b6b1e980-26d3-11eb-9c0e-72c0e0bb714a.jpg" />
 
@@ -485,7 +485,7 @@ H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data a
      <img src="https://user-images.githubusercontent.com/31917400/99183382-315e2180-2733-11eb-9268-4f2b9a757b94.jpg" /> 
 
 
-## (2) Complexity of likelihood
+## (2) Complexity of likelihood & Multiple Global Optima
 
 
 
