@@ -475,8 +475,32 @@ H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data a
 
  - __Q. When can we ignore the `missing data mechanism` and focus only on the **likelihood that we get to observe**?__ 
    - To answer this, one can define a notion called **missing at random** (MAR). 
-     - The joint over (x, y, o) have the following characteristics that the observation variables o are independent of the unobserved X's
+     - The joint over (x, y, o) have the following characteristics that the observation variables `O` are independent of the missing `X`'s. This means if you tell me the `Y` values that you observe, then the fact that something may or may not have been observed doesn't carry any additional information. 
      <img src="https://user-images.githubusercontent.com/31917400/99183382-315e2180-2733-11eb-9268-4f2b9a757b94.jpg" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
