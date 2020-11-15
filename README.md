@@ -460,6 +460,8 @@ The presence of missing values or latent variable raises multiple challenges.
  - (2) Complexity of likelihood 
  - (3) Multiple Global Optima
 
+## (1) Unknown mechanism of missingness
+
 ### With Latent variables and Model Sparcity
  - Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
  - Latent variable often offers an interesting characterization of structure in the data...such as clusters..
@@ -483,6 +485,7 @@ H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data a
      <img src="https://user-images.githubusercontent.com/31917400/99183382-315e2180-2733-11eb-9268-4f2b9a757b94.jpg" /> 
 
 
+## (2) Complexity of likelihood
 
 
 
