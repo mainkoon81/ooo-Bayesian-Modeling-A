@@ -493,6 +493,7 @@ Having missing values gives a pain in the ass. H,T,H,?,T,?,?,?,T,H......how to d
    <img src="https://user-images.githubusercontent.com/31917400/99188233-cc1a2880-2752-11eb-88e4-aa1df18e6512.jpg" /> 
 
 
+# > Ok, then how to go about doing parameter estimation in the context of the missing data?
 
 
 
