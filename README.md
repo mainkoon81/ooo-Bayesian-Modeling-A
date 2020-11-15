@@ -453,7 +453,12 @@ In Bayes-Net, if the model has independent priors, then its posteriors are also 
 ## 03 > Learning with incomplete data
 What's the occasion?
  - hidden variables? Unobservable?
- - missing values?
+ - simply missing values?
+
+The presence of missing values or latent variable raises multiple challenges.
+ - (1) Unknown mechanism of missingness
+ - (2) Complexity of likelihood 
+ - (3) Multiple Global Optima
 
 ### With Latent variables and Model Sparcity
  - Latent variable often gives rise to the **sparser** and therefore **easier-to-learn** models. 
@@ -462,22 +467,20 @@ What's the occasion?
 
 ### With missing values
 H,T,H,?,T,?,?,?,T,H......how to deal with "?" If you don't know why these data are missing, you have no idea how to proceed... 
- - __Missing data mechanism Model:__
+ - __Missing data mechanism:__
    <img src="https://user-images.githubusercontent.com/31917400/99159390-b6b1e980-26d3-11eb-9c0e-72c0e0bb714a.jpg" />
 
-   - **[Model 01]** with Random missing value
+   - **[Case 01]** with Random missing value
      <img src="https://user-images.githubusercontent.com/31917400/99159551-2e344880-26d5-11eb-89c3-c30fb9796617.jpg" />
      - The observed target value `Y` depends on `X` and on `O`, but there is no interaction between `X` and on `O` (D-Separation) 
 
-   - **[Model 02]** with Non-Random missing value
+   - **[Case 02]** with Non-Random missing value
      <img src="https://user-images.githubusercontent.com/31917400/99159697-cd0d7480-26d6-11eb-8f03-4d2cd533c72e.jpg" />
      - By comparison, in this case, the true value of the `X` variable affects `O`(observed or not)
 
- - __Q. When can we ignore the `missing data mechanism` and focus only on the **likelihood that we get to observe**?__ 
-   - To answer this, one can define a notion called **missing at random** (MAR). 
-     - The joint over (x, y, o) have the following characteristics that the observation variables `O` are independent of the missing `X`'s. This means if you tell me the `Y` values that you observe, then the fact that something may or may not have been observed doesn't carry any additional information. 
+ - __In the case of **missing at random** (MAR) we can ignore the `missing data mechanism` and focus only on the **likelihood that we get to observe**.__ 
+   - The joint over (x, y, o) have the following characteristics that the observation variables `O` are independent of the missing `X`'s. This means if you tell me the `Y` values that you observe, then the fact that something may or may not have been observed doesn't carry any additional information. 
      <img src="https://user-images.githubusercontent.com/31917400/99183382-315e2180-2733-11eb-9268-4f2b9a757b94.jpg" /> 
-
 
 
 
