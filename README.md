@@ -495,7 +495,14 @@ Having missing values gives a pain in the ass. H,T,H,?,T,?,?,?,T,H......how to d
 
 > # Ok, then how to go about doing parameter estimation in the context of the missing data?
 
-
+----------------------------------------------------------------------------------------------------------------------------------
+## EM Algorithm (Likelihood Optimization)
+In the context of missing data, the likelihood function looks like a nasty, complicated multi-modal function, which is impossible to optimize in closed form. There is two general classes of strategies. 
+- The first is to use a generic optimization method, such as `gradient ascent`. We might start out with a particular point in the parameter space, and we compute the gradient at that point, and we go in the direction of steepest ascent, which might take us to the next point, at which point we compute the gradient, and we continue until we reach a local optimum of the function that we're trying to optimize. 
+  <img src="https://user-images.githubusercontent.com/31917400/99191475-d34a3200-2764-11eb-8d1f-c8e778647de7.jpg" /> 
+  
+  - For improving the rate of convergence of these algorithms, some methods such as **line search** or **conjugate gradient methods** basically are going to get us faster to whatever local optimum we're going to end up at..
+  - Need to run inference over each data instance at every iteration..so very costly...
 
 
 
