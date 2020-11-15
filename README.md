@@ -510,6 +510,7 @@ In the context of missing data, the likelihood function looks like a nasty, comp
     - [Step_E]: "complete" the data(soft completion using probability), using current parameters.
     - [Step_M]: Re-estimate the parameters relative to the previous data completion.
       <img src="https://user-images.githubusercontent.com/31917400/99192093-e232e380-2768-11eb-95bb-e85be1e0069c.jpg" /> 
+      <img src="https://user-images.githubusercontent.com/31917400/99192675-fe844f80-276b-11eb-9046-173a8635e1ad.jpg" /> 
 
 
 
