@@ -49,6 +49,7 @@ Depending on whether the graph is **directed or undirected**, we can classify gr
 ## A1> Bayesian Network Intro
 <img src="https://user-images.githubusercontent.com/31917400/93762637-e11d8400-fc07-11ea-936a-af4382c997bf.jpg" />
 
+> # so what?
 Bayesian networks allow to model causal relationships between variables, compensating the lack of information provided by data. BN can be used for a wide range of tasks including prediction, anomaly detection, diagnostics, automated insight, reasoning, time series prediction and decision making under uncertainty. It uses a `directed graph` as the intrinsic representation. Bayesian Network is a Directed Acyclic Graph(DAG) whose nodes represent the random variables X1, X2, ... It represents a `joint distribution`(via the chainRule) for Bayesian Networks. Bayes-nets explicitly encodes the `dependencies` between variables to model **joint distributions**. They are particularly useful because they provide a compact representation for practically arbitrary distributions, and efficient algorithms exist to sample and perform **inference over the joint distribution**.
  - It takes the idea of **uncertainty** and marry it with efficient structures. so..one can easily see what uncertain variable influence other uncertain variables.
 
